@@ -3,18 +3,14 @@
 import { useState } from 'react'
 import JsonView from 'react18-json-view'
 import 'react18-json-view/src/style.css'
-import {
-  SUPPORTED_COUNTRIES_REGIONS,
-  jsExample,
-  curlExample,
-  pythonExample,
-} from './constants'
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
-import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism'
+import { SUPPORTED_COUNTRIES_REGIONS } from './constants'
 import { Listbox, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
 import { FlagIcon } from '@/components/FlagIcon'
-import { CopyButton } from '@/components/CopyButton'
+import { FeatureSection } from '@/components/FeatureSection'
+import { ExampleUsage } from '@/components/ExampleUsage'
+import { Card } from '@/components/Card'
+import { CardTitle } from '@/components/CardTitle'
 
 export default function Home() {
   const [year, setYear] = useState('2025')
@@ -102,42 +98,7 @@ export default function Home() {
         </section>
 
         {/* Features */}
-        <section>
-          <h2 className="font-bold text-center mb-12 text-3xl text-gray-900 dark:text-white">
-            Why Choose Our API?
-          </h2>
-          <div className="grid gap-8 md:grid-cols-3">
-            <div className="bg-white rounded-xl shadow-md p-8 dark:bg-gray-800">
-              <div className="mb-4 text-4xl">🌐</div>
-              <h3 className="font-semibold text-xl mb-2 text-gray-900 dark:text-white">
-                59 Countries/Regions Covered
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Comprehensive coverage across Asia-Pacific, Europe, Americas,
-                Middle East, and Africa with accurate regional data.
-              </p>
-            </div>
-            <div className="bg-white rounded-xl shadow-md p-8 dark:bg-gray-800">
-              <div className="mb-4 text-4xl">📅</div>
-              <h3 className="font-semibold text-xl mb-2 text-gray-900 dark:text-white">
-                Historical & Future Data
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Access holiday data for 2023 and forward, with plans to expand
-                further.
-              </p>
-            </div>
-            <div className="bg-white rounded-xl shadow-md p-8 dark:bg-gray-800">
-              <div className="mb-4 text-4xl">🎯</div>
-              <h3 className="font-semibold text-xl mb-2 text-gray-900 dark:text-white">
-                Rich Metadata
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Includes local names, holiday types, duration support.
-              </p>
-            </div>
-          </div>
-        </section>
+        <FeatureSection />
 
         {/* Try It Section */}
         <section id="try-it" className="py-20">
@@ -541,21 +502,17 @@ export default function Home() {
           </h2>
 
           <div className="mx-auto space-y-8 max-w-4xl">
-            <div className="bg-white rounded-xl shadow-md p-8 dark:bg-gray-800">
-              <h3 className="font-semibold text-xl mb-4 text-gray-900 dark:text-white">
-                Endpoint
-              </h3>
+            <Card>
+              <CardTitle>Endpoint</CardTitle>
               <div className="rounded-lg bg-gray-50 p-4 dark:bg-gray-900">
                 <code className="text-blue-600 dark:text-blue-400">
                   GET /api/public-holidays
                 </code>
               </div>
-            </div>
+            </Card>
 
-            <div className="bg-white rounded-xl shadow-md p-8 dark:bg-gray-800">
-              <h3 className="font-semibold text-xl mb-4 text-gray-900 dark:text-white">
-                Query Parameters
-              </h3>
+            <Card>
+              <CardTitle>Query Parameters</CardTitle>
               <table className="w-full">
                 <thead>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
@@ -593,12 +550,10 @@ export default function Home() {
                   </tr>
                 </tbody>
               </table>
-            </div>
+            </Card>
 
-            <div className="bg-white rounded-xl shadow-md p-8 dark:bg-gray-800">
-              <h3 className="font-semibold text-xl mb-4 text-gray-900 dark:text-white">
-                Response Format
-              </h3>
+            <Card>
+              <CardTitle>Response Format</CardTitle>
               <div className="rounded-lg bg-gray-900 p-4 overflow-x-auto">
                 <JsonView
                   src={{
@@ -623,12 +578,10 @@ export default function Home() {
                   enableClipboard={true}
                 />
               </div>
-            </div>
+            </Card>
 
-            <div className="bg-white rounded-xl shadow-md p-8 dark:bg-gray-800">
-              <h3 className="font-semibold text-xl mb-4 text-gray-900 dark:text-white">
-                Supported Countries & Regions (59)
-              </h3>
+            <Card>
+              <CardTitle>Supported Countries & Regions (59)</CardTitle>
               <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 {(showAllCountries
                   ? SUPPORTED_COUNTRIES_REGIONS
@@ -698,122 +651,9 @@ export default function Home() {
                   )}
                 </button>
               </div>
-            </div>
+            </Card>
 
-            <div className="bg-white rounded-xl shadow-md p-8 dark:bg-gray-800">
-              <h3 className="font-semibold text-xl mb-6 text-gray-900 dark:text-white">
-                Example Usage
-              </h3>
-              <div className="space-y-6">
-                <div className="border rounded-lg border-gray-200 overflow-hidden dark:border-gray-700">
-                  <div className="bg-gradient-to-r border-b from-blue-50 to-indigo-50 border-gray-200 py-3 px-4 dark:from-gray-700 dark:to-gray-750 dark:border-gray-600">
-                    <div className="flex gap-2 items-center justify-between">
-                      <div className="flex gap-2 items-center">
-                        <svg
-                          className="h-5 text-yellow-500 w-5"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path d="M2 6a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8a1 1 0 00.553.894l2 1A1 1 0 0018 9V7a1 1 0 00-1.447-.894l-2 1zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zM14.553 14.106A1 1 0 0014 15a1 1 0 00.553.894l2 1A1 1 0 0018 16v-2a1 1 0 00-1.447-.894l-2 1z" />
-                        </svg>
-                        <h4 className="font-semibold text-sm dark:text-white">
-                          JavaScript / Fetch API
-                        </h4>
-                      </div>
-                      <CopyButton text={jsExample} />
-                    </div>
-                  </div>
-                  <SyntaxHighlighter
-                    language="javascript"
-                    style={vscDarkPlus}
-                    customStyle={{
-                      margin: 0,
-                      fontSize: '0.875rem',
-                      padding: '1rem',
-                    }}
-                    showLineNumbers={true}
-                  >
-                    {jsExample}
-                  </SyntaxHighlighter>
-                </div>
-
-                <div className="border rounded-lg border-gray-200 overflow-hidden dark:border-gray-700">
-                  <div className="bg-gradient-to-r border-b from-green-50 to-emerald-50 border-gray-200 py-3 px-4 dark:from-gray-700 dark:to-gray-750 dark:border-gray-600">
-                    <div className="flex gap-2 items-center justify-between">
-                      <div className="flex gap-2 items-center">
-                        <svg
-                          className="h-5 text-green-600 w-5 dark:text-green-400"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                          />
-                        </svg>
-                        <h4 className="font-semibold text-sm text-gray-900 dark:text-white">
-                          cURL Command
-                        </h4>
-                      </div>
-                      <CopyButton text={curlExample} />
-                    </div>
-                  </div>
-                  <SyntaxHighlighter
-                    language="bash"
-                    style={vscDarkPlus}
-                    customStyle={{
-                      margin: 0,
-                      fontSize: '0.875rem',
-                      padding: '1rem',
-                    }}
-                    showLineNumbers={true}
-                  >
-                    {curlExample}
-                  </SyntaxHighlighter>
-                </div>
-
-                <div className="border rounded-lg border-gray-200 overflow-hidden dark:border-gray-700">
-                  <div className="bg-gradient-to-r border-b from-purple-50 to-pink-50 border-gray-200 py-3 px-4 dark:from-gray-700 dark:to-gray-750 dark:border-gray-600">
-                    <div className="flex gap-2 items-center justify-between">
-                      <div className="flex gap-2 items-center">
-                        <svg
-                          className="h-5 text-purple-600 w-5 dark:text-purple-400"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                          />
-                        </svg>
-                        <h4 className="font-semibold text-sm text-gray-900 dark:text-white">
-                          Python / Requests
-                        </h4>
-                      </div>
-                      <CopyButton text={pythonExample} />
-                    </div>
-                  </div>
-                  <SyntaxHighlighter
-                    language="python"
-                    style={vscDarkPlus}
-                    customStyle={{
-                      margin: 0,
-                      fontSize: '0.875rem',
-                      padding: '1rem',
-                    }}
-                    showLineNumbers={true}
-                  >
-                    {pythonExample}
-                  </SyntaxHighlighter>
-                </div>
-              </div>
-            </div>
+            <ExampleUsage />
           </div>
         </section>
       </main>
