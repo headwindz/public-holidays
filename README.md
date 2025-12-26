@@ -159,7 +159,7 @@ curl "https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn"
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/headwindz/public-holidays
 cd public-holidays
 ```
 
@@ -191,7 +191,7 @@ public-holidays/
 ├── app/
 │   ├── api/
 │   │   └── public-holidays/
-│   │       └── route.ts          # API endpoint
+│   │       └── route.ts           # API endpoint
 │   ├── globals.css                # Global styles
 │   ├── layout.tsx                 # Root layout
 │   └── page.tsx                   # Landing page
