@@ -1,5 +1,6 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism'
+import { Code, Terminal, FileCode } from 'lucide-react'
 import { CopyButton } from './CopyButton'
 import { Card } from './Card'
 import { CardTitle } from './CardTitle'
@@ -20,15 +21,7 @@ const examples: Example[] = [
     title: 'JavaScript / Fetch API',
     language: 'javascript',
     code: jsExample,
-    icon: (
-      <svg
-        className="h-5 text-yellow-500 w-5"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-      >
-        <path d="M2 6a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8a1 1 0 00.553.894l2 1A1 1 0 0018 9V7a1 1 0 00-1.447-.894l-2 1zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zM14.553 14.106A1 1 0 0014 15a1 1 0 00.553.894l2 1A1 1 0 0018 16v-2a1 1 0 00-1.447-.894l-2 1z" />
-      </svg>
-    ),
+    icon: <FileCode className="h-5 text-yellow-500 w-5" />,
     gradientFrom: 'from-blue-50',
     gradientTo: 'to-indigo-50',
     iconColor: 'text-yellow-500',
@@ -37,21 +30,7 @@ const examples: Example[] = [
     title: 'cURL Command',
     language: 'bash',
     code: curlExample,
-    icon: (
-      <svg
-        className="h-5 text-green-600 w-5 dark:text-green-400"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-        />
-      </svg>
-    ),
+    icon: <Terminal className="h-5 text-green-600 w-5 dark:text-green-400" />,
     gradientFrom: 'from-green-50',
     gradientTo: 'to-emerald-50',
     iconColor: 'text-green-600 dark:text-green-400',
@@ -60,21 +39,7 @@ const examples: Example[] = [
     title: 'Python / Requests',
     language: 'python',
     code: pythonExample,
-    icon: (
-      <svg
-        className="h-5 text-purple-600 w-5 dark:text-purple-400"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-        />
-      </svg>
-    ),
+    icon: <Code className="h-5 text-purple-600 w-5 dark:text-purple-400" />,
     gradientFrom: 'from-purple-50',
     gradientTo: 'to-pink-50',
     iconColor: 'text-purple-600 dark:text-purple-400',
