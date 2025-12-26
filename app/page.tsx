@@ -9,6 +9,7 @@ import { Fragment } from 'react'
 import { FlagIcon } from '@/components/FlagIcon'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { SectionTitle } from '@/components/SectionTitle'
 import { FeatureSection } from '@/components/FeatureSection'
 import { QueryParams } from '@/components/QueryParams'
 import { ResponseFormat } from '@/components/ResponseFormat'
@@ -45,20 +46,14 @@ export default function Home() {
     <div className="bg-gradient-to-b to-white min-h-screen from-blue-50 dark:from-gray-900 dark:to-gray-800">
       <Header />
 
-      <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <main className="mx-auto space-y-14 mt-14 max-w-7xl px-4 sm:px-6 lg:px-8">
         <Hero />
 
         <FeatureSection />
 
         {/* Try It Section */}
-        <section id="try-it" className="py-20">
-          <h2 className="font-bold text-center mb-4 text-3xl text-gray-900 dark:text-white">
-            Try It Out
-          </h2>
-          <p className="text-center mb-12 text-gray-600 dark:text-gray-300">
-            Test the API right here in your browser
-          </p>
-
+        <section id="try-it">
+          <SectionTitle>Try It Out</SectionTitle>
           <div className="mx-auto max-w-4xl">
             <div className="bg-white border rounded-xl border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
               <div className="py-5 px-6">
@@ -447,9 +442,7 @@ export default function Home() {
 
         {/* Documentation Section */}
         <section id="documentation" className="pb-20">
-          <h2 className="font-bold text-center mb-12 text-3xl text-gray-900 dark:text-white">
-            API Documentation
-          </h2>
+          <SectionTitle>API Documentation</SectionTitle>
 
           <div className="mx-auto space-y-8 max-w-4xl">
             <Card>
@@ -460,13 +453,9 @@ export default function Home() {
                 </code>
               </div>
             </Card>
-
             <QueryParams />
-
             <ResponseFormat />
-
             <SupportedCountries />
-
             <ExampleUsage />
           </div>
         </section>

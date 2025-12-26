@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <section className="text-center py-20">
+    <section className="text-center mb-20">
       <h1 className="font-extrabold tracking-tight text-5xl text-gray-900 sm:text-6xl dark:text-white">
         Accurate Public Holiday Data
         <br />

@@ -1,3 +1,5 @@
+import { SectionTitle } from './SectionTitle'
+
 interface Feature {
   icon: string
   title: string
@@ -27,9 +29,7 @@ const features: Feature[] = [
 export const FeatureSection = () => {
   return (
     <section>
-      <h2 className="font-bold text-center mb-12 text-3xl text-gray-900 dark:text-white">
-        Why Choose Our API?
-      </h2>
+      <SectionTitle>Why Choose Our API?</SectionTitle>
       <div className="grid gap-8 md:grid-cols-3">
         {features.map((feature) => (
           <div
