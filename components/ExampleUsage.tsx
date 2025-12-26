@@ -5,12 +5,13 @@ import { CopyButton } from './CopyButton'
 import { Card } from './Card'
 import { CardTitle } from './CardTitle'
 import { jsExample, curlExample, pythonExample } from '@/app/constants'
+import React from 'react'
 
 interface Example {
   title: string
   language: string
   code: string
-  icon: JSX.Element
+  icon: React.ReactNode
   gradientFrom: string
   gradientTo: string
   iconColor: string
