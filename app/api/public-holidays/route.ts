@@ -2,6 +2,19 @@ import { NextRequest } from 'next/server'
 import { readFile } from 'fs/promises'
 import path from 'path'
 
+const corsHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+}
+
+export async function OPTIONS() {
+  return new Response(null, {
+    status: 204,
+    headers: corsHeaders,
+  })
+}
+
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
   const year = searchParams.get('year')
@@ -10,7 +23,7 @@ export async function GET(request: NextRequest) {
   if (!year || !code) {
     return Response.json(
       { error: 'Both year and code parameters are required' },
-      { status: 400 }
+      { status: 400, headers: corsHeaders }
     )
   }
 
@@ -26,7 +39,7 @@ export async function GET(request: NextRequest) {
     const fileContent = await readFile(filePath, 'utf-8')
     const data = JSON.parse(fileContent)
 
-    return Response.json({ data })
+    return Response.json({ data }, { headers: corsHeaders })
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
       return Response.json(
@@ -34,10 +47,13 @@ export async function GET(request: NextRequest) {
           error:
             'Data not found for the specified year and country/region code',
         },
-        { status: 404 }
+        { status: 404, headers: corsHeaders }
       )
     }
 
-    return Response.json({ error: 'Failed to load data' }, { status: 500 })
+    return Response.json(
+      { error: 'Failed to load data' },
+      { status: 500, headers: corsHeaders }
+    )
   }
 }
