@@ -2,6 +2,8 @@
 
 A comprehensive public holidays API providing holiday data for 59 countries and regions across multiple years (2023-2025). Built with Next.js and TypeScript.
 
+🌐 **Doc**: [https://public-holidays.toolhub.run/](https://public-holidays.toolhub.run/)
+
 ## Features
 
 - 🌍 **59 Countries & Regions** - Comprehensive coverage of public holidays worldwide
