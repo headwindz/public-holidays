@@ -67,7 +67,9 @@ export default function Home() {
             </span>
           </div>
           <a
-            href="https://github.com"
+            href="https://github.com/headwindz/public-holidays"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm transition-colors text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
             aria-label="View on GitHub"
           >
