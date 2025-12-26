@@ -59,3 +59,18 @@ export const SUPPORTED_COUNTRIES_REGIONS = [
   { code: 'VN', name: 'Vietnam' },
   { code: 'ZA', name: 'South Africa' },
 ]
+
+export const jsExample = `fetch('https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn')
+  .then(res => res.json())
+  .then(console.log)`
+
+export const curlExample = `curl "https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn"`
+
+export const pythonExample = `import requests
+
+response = requests.get(
+    'https://public-holidays.toolhub.run/api/public-holidays',
+    params={'year': '2025', 'code': 'cn'}
+)
+data = response.json()
+print(data)`
