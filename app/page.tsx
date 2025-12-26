@@ -6,6 +6,17 @@ import 'react18-json-view/src/style.css'
 import { SUPPORTED_COUNTRIES_REGIONS } from './constants'
 import { Listbox, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
+import {
+  Terminal,
+  Calendar,
+  ChevronDown,
+  Check,
+  Globe,
+  Zap,
+  Loader2,
+  CheckCircle,
+  ChevronRight,
+} from 'lucide-react'
 import { FlagIcon } from '@/components/FlagIcon'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
@@ -58,19 +69,7 @@ export default function Home() {
             <div className="bg-white border rounded-xl border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
               <div className="py-5 px-6">
                 <div className="flex mb-4 gap-3 items-center">
-                  <svg
-                    className="h-6 text-white w-6"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                    />
-                  </svg>
+                  <Terminal className="h-6 text-white w-6" />
                   <h3 className="font-semibold text-white">API Endpoint</h3>
                 </div>
                 <div className="rounded-lg bg-white/10 py-2 px-4 backdrop-blur-sm">
@@ -84,19 +83,7 @@ export default function Home() {
                 <div className="grid gap-4 md:grid-cols-2">
                   <div>
                     <label className="flex font-medium text-sm mb-2 text-gray-700 gap-2 items-center dark:text-gray-300">
-                      <svg
-                        className="h-4 text-blue-500 w-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                        />
-                      </svg>
+                      <Calendar className="h-4 text-blue-500 w-4" />
                       Year
                     </label>
                     <Listbox value={year} onChange={setYear}>
@@ -104,19 +91,7 @@ export default function Home() {
                         <Listbox.Button className="bg-white border rounded-lg cursor-pointer border-gray-300 text-left w-full py-3 pr-10 pl-4 transition-all relative dark:bg-gray-700 dark:border-gray-600 dark:text-white focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                           <span className="block truncate">{year}</span>
                           <span className="flex pr-3 inset-y-0 right-0 pointer-events-none absolute items-center">
-                            <svg
-                              className="h-5 text-gray-400 w-5"
-                              viewBox="0 0 20 20"
-                              fill="none"
-                              stroke="currentColor"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={1.5}
-                                d="M6 8l4 4 4-4"
-                              />
-                            </svg>
+                            <ChevronDown className="h-5 text-gray-400 w-5" />
                           </span>
                         </Listbox.Button>
                         <Transition
@@ -151,17 +126,7 @@ export default function Home() {
                                     </span>
                                     {selected && (
                                       <span className="flex pl-3 inset-y-0 left-0 text-blue-600 absolute items-center dark:text-blue-400">
-                                        <svg
-                                          className="h-5 w-5"
-                                          viewBox="0 0 20 20"
-                                          fill="currentColor"
-                                        >
-                                          <path
-                                            fillRule="evenodd"
-                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                            clipRule="evenodd"
-                                          />
-                                        </svg>
+                                        <Check className="h-5 w-5" />
                                       </span>
                                     )}
                                   </>
@@ -175,19 +140,7 @@ export default function Home() {
                   </div>
                   <div>
                     <label className="flex font-medium text-sm mb-2 text-gray-700 gap-2 items-center dark:text-gray-300">
-                      <svg
-                        className="h-4 text-blue-500 w-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                      </svg>
+                      <Globe className="h-4 text-blue-500 w-4" />
                       Country/Region Code
                     </label>
                     <Listbox value={code} onChange={setCode}>
@@ -205,19 +158,7 @@ export default function Home() {
                             </span>
                           </span>
                           <span className="flex pr-3 inset-y-0 right-0 pointer-events-none absolute items-center">
-                            <svg
-                              className="h-5 text-gray-400 w-5"
-                              viewBox="0 0 20 20"
-                              fill="none"
-                              stroke="currentColor"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={1.5}
-                                d="M6 8l4 4 4-4"
-                              />
-                            </svg>
+                            <ChevronDown className="h-5 text-gray-400 w-5" />
                           </span>
                         </Listbox.Button>
                         <Transition
@@ -232,7 +173,7 @@ export default function Home() {
                               <input
                                 type="text"
                                 className="border rounded-md border-gray-300 text-sm w-full py-2 px-3 dark:bg-gray-600 dark:border-gray-500 dark:text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
-                                placeholder="Search countries..."
+                                placeholder="Search countries or regions..."
                                 value={countrySearch}
                                 onChange={(e) =>
                                   setCountrySearch(e.target.value)
@@ -286,17 +227,7 @@ export default function Home() {
                                         </span>
                                         {selected && (
                                           <span className="flex pl-3 inset-y-0 left-0 text-blue-600 absolute items-center dark:text-blue-400">
-                                            <svg
-                                              className="h-5 w-5"
-                                              viewBox="0 0 20 20"
-                                              fill="currentColor"
-                                            >
-                                              <path
-                                                fillRule="evenodd"
-                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                                clipRule="evenodd"
-                                              />
-                                            </svg>
+                                            <Check className="h-5 w-5" />
                                           </span>
                                         )}
                                       </>
@@ -318,42 +249,12 @@ export default function Home() {
                 >
                   {loading ? (
                     <>
-                      <svg
-                        className="h-5 animate-spin w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                      >
-                        <circle
-                          className="opacity-25"
-                          cx="12"
-                          cy="12"
-                          r="10"
-                          stroke="currentColor"
-                          strokeWidth="4"
-                        />
-                        <path
-                          className="opacity-75"
-                          fill="currentColor"
-                          d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                        />
-                      </svg>
+                      <Loader2 className="h-5 animate-spin w-5" />
                       Loading...
                     </>
                   ) : (
                     <>
-                      <svg
-                        className="h-5 w-5"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M13 10V3L4 14h7v7l9-11h-7z"
-                        />
-                      </svg>
+                      <Zap className="h-5 w-5" />
                       Send Request
                     </>
                   )}
@@ -363,19 +264,7 @@ export default function Home() {
                   <div className="border rounded-lg border-gray-200 mt-6 overflow-hidden dark:border-gray-700">
                     <div className="bg-gradient-to-r flex from-gray-50 to-gray-100 py-3 px-4 items-center justify-between dark:from-gray-700 dark:to-gray-750">
                       <div className="flex gap-2 items-center">
-                        <svg
-                          className="h-5 text-green-500 w-5"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
+                        <CheckCircle className="h-5 text-green-500 w-5" />
                         <h4 className="font-semibold text-sm text-gray-900 dark:text-white">
                           Response
                         </h4>
@@ -388,33 +277,9 @@ export default function Home() {
                         }
                       >
                         {isExpanded ? (
-                          <svg
-                            className="h-5 w-5"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2}
-                              d="M19 9l-7 7-7-7"
-                            />
-                          </svg>
+                          <ChevronDown className="h-5 w-5" />
                         ) : (
-                          <svg
-                            className="h-5 w-5"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2}
-                              d="M9 5l7 7-7 7"
-                            />
-                          </svg>
+                          <ChevronRight className="h-5 w-5" />
                         )}
                       </button>
                     </div>
