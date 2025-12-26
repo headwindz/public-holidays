@@ -31,6 +31,21 @@ const FlagIcon = ({
     <span className={className}>🏳️</span>
   )
 }
+const jsExample = `fetch('https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn')
+.then(res => res.json())
+.then(console.log)`
+
+const curlExample = `curl "https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn"`
+
+const pythonExample = `import requests
+
+response = requests.get(
+  'https://public-holidays.toolhub.run/api/public-holidays',
+  params={'year': '2025', 'code': 'cn'}
+)
+data = response.json()
+print(data)`
+
 export default function Home() {
   const [year, setYear] = useState('2025')
   const [code, setCode] = useState('cn')
@@ -39,6 +54,13 @@ export default function Home() {
   const [isExpanded, setIsExpanded] = useState(true)
   const [showAllCountries, setShowAllCountries] = useState(false)
   const [countrySearch, setCountrySearch] = useState('')
+  const [copiedExample, setCopiedExample] = useState<string | null>(null)
+
+  const copyToClipboard = (text: string, exampleId: string) => {
+    navigator.clipboard.writeText(text)
+    setCopiedExample(exampleId)
+    setTimeout(() => setCopiedExample(null), 2000)
+  }
 
   const handleTryIt = async () => {
     setLoading(true)
@@ -722,17 +744,59 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="border rounded-lg border-gray-200 overflow-hidden dark:border-gray-700">
                   <div className="bg-gradient-to-r border-b from-blue-50 to-indigo-50 border-gray-200 py-3 px-4 dark:from-gray-700 dark:to-gray-750 dark:border-gray-600">
-                    <div className="flex gap-2 items-center">
-                      <svg
-                        className="h-5 text-yellow-500 w-5"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
+                    <div className="flex gap-2 items-center justify-between">
+                      <div className="flex gap-2 items-center">
+                        <svg
+                          className="h-5 text-yellow-500 w-5"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path d="M2 6a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8a1 1 0 00.553.894l2 1A1 1 0 0018 9V7a1 1 0 00-1.447-.894l-2 1zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zM14.553 14.106A1 1 0 0014 15a1 1 0 00.553.894l2 1A1 1 0 0018 16v-2a1 1 0 00-1.447-.894l-2 1z" />
+                        </svg>
+                        <h4 className="font-semibold text-sm dark:text-white">
+                          JavaScript / Fetch API
+                        </h4>
+                      </div>
+                      <button
+                        onClick={() => copyToClipboard(jsExample, 'js')}
+                        className="flex font-medium text-xs transition-colors gap-1 items-center dark:text-gray-900  dark:hover:text-gray-600"
                       >
-                        <path d="M2 6a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8a1 1 0 00.553.894l2 1A1 1 0 0018 9V7a1 1 0 00-1.447-.894l-2 1zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zM14.553 14.106A1 1 0 0014 15a1 1 0 00.553.894l2 1A1 1 0 0018 16v-2a1 1 0 00-1.447-.894l-2 1z" />
-                      </svg>
-                      <h4 className="font-semibold text-sm text-gray-900 dark:text-white">
-                        JavaScript / Fetch API
-                      </h4>
+                        {copiedExample === 'js' ? (
+                          <>
+                            <svg
+                              className="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>
+                            Copied!
+                          </>
+                        ) : (
+                          <>
+                            <svg
+                              className="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                              />
+                            </svg>
+                            Copy
+                          </>
+                        )}
+                      </button>
                     </div>
                   </div>
                   <SyntaxHighlighter
@@ -745,31 +809,71 @@ export default function Home() {
                     }}
                     showLineNumbers={true}
                   >
-                    {`fetch('https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn')
-  .then(res => res.json())
-  .then(console.log)`}
+                    {jsExample}
                   </SyntaxHighlighter>
                 </div>
 
                 <div className="border rounded-lg border-gray-200 overflow-hidden dark:border-gray-700">
                   <div className="bg-gradient-to-r border-b from-green-50 to-emerald-50 border-gray-200 py-3 px-4 dark:from-gray-700 dark:to-gray-750 dark:border-gray-600">
-                    <div className="flex gap-2 items-center">
-                      <svg
-                        className="h-5 text-green-600 w-5 dark:text-green-400"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
+                    <div className="flex gap-2 items-center justify-between">
+                      <div className="flex gap-2 items-center">
+                        <svg
+                          className="h-5 text-green-600 w-5 dark:text-green-400"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                          />
+                        </svg>
+                        <h4 className="font-semibold text-sm text-gray-900 dark:text-white">
+                          cURL Command
+                        </h4>
+                      </div>
+                      <button
+                        onClick={() => copyToClipboard(curlExample, 'curl')}
+                        className="flex font-medium text-xs transition-colors gap-1 items-center dark:text-gray-900  dark:hover:text-gray-600"
                       >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                        />
-                      </svg>
-                      <h4 className="font-semibold text-sm text-gray-900 dark:text-white">
-                        cURL Command
-                      </h4>
+                        {copiedExample === 'curl' ? (
+                          <>
+                            <svg
+                              className="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>
+                            Copied!
+                          </>
+                        ) : (
+                          <>
+                            <svg
+                              className="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                              />
+                            </svg>
+                            Copy
+                          </>
+                        )}
+                      </button>
                     </div>
                   </div>
                   <SyntaxHighlighter
@@ -782,29 +886,71 @@ export default function Home() {
                     }}
                     showLineNumbers={true}
                   >
-                    {`curl "https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn"`}
+                    {curlExample}
                   </SyntaxHighlighter>
                 </div>
 
                 <div className="border rounded-lg border-gray-200 overflow-hidden dark:border-gray-700">
                   <div className="bg-gradient-to-r border-b from-purple-50 to-pink-50 border-gray-200 py-3 px-4 dark:from-gray-700 dark:to-gray-750 dark:border-gray-600">
-                    <div className="flex gap-2 items-center">
-                      <svg
-                        className="h-5 text-purple-600 w-5 dark:text-purple-400"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
+                    <div className="flex gap-2 items-center justify-between">
+                      <div className="flex gap-2 items-center">
+                        <svg
+                          className="h-5 text-purple-600 w-5 dark:text-purple-400"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                          />
+                        </svg>
+                        <h4 className="font-semibold text-sm text-gray-900 dark:text-white">
+                          Python / Requests
+                        </h4>
+                      </div>
+                      <button
+                        onClick={() => copyToClipboard(pythonExample, 'python')}
+                        className="flex font-medium text-xs transition-colors gap-1 items-center dark:text-gray-900  dark:hover:text-gray-600"
                       >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                        />
-                      </svg>
-                      <h4 className="font-semibold text-sm text-gray-900 dark:text-white">
-                        Python / Requests
-                      </h4>
+                        {copiedExample === 'python' ? (
+                          <>
+                            <svg
+                              className="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>
+                            Copied!
+                          </>
+                        ) : (
+                          <>
+                            <svg
+                              className="h-4 w-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                              />
+                            </svg>
+                            Copy
+                          </>
+                        )}
+                      </button>
                     </div>
                   </div>
                   <SyntaxHighlighter
@@ -817,14 +963,7 @@ export default function Home() {
                     }}
                     showLineNumbers={true}
                   >
-                    {`import requests
-
-response = requests.get(
-    'https://public-holidays.toolhub.run/api/public-holidays',
-    params={'year': '2025', 'code': 'cn'}
-)
-data = response.json()
-print(data)`}
+                    {pythonExample}
                   </SyntaxHighlighter>
                 </div>
               </div>
