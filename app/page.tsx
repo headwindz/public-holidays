@@ -745,7 +745,7 @@ export default function Home() {
                     }}
                     showLineNumbers={true}
                   >
-                    {`fetch('/api/public-holidays?year=2025&code=cn')
+                    {`fetch('https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn')
   .then(res => res.json())
   .then(console.log)`}
                   </SyntaxHighlighter>
@@ -782,7 +782,7 @@ export default function Home() {
                     }}
                     showLineNumbers={true}
                   >
-                    {`curl "https://your-domain.com/api/public-holidays?year=2025&code=cn"`}
+                    {`curl "https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn"`}
                   </SyntaxHighlighter>
                 </div>
 
@@ -820,7 +820,7 @@ export default function Home() {
                     {`import requests
 
 response = requests.get(
-    'https://your-domain.com/api/public-holidays',
+    'https://public-holidays.toolhub.run/api/public-holidays',
     params={'year': '2025', 'code': 'cn'}
 )
 data = response.json()

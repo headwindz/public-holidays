@@ -34,7 +34,7 @@ See the [data directory](./data/2025) for the complete list of country codes.
 ### Endpoint
 
 ```
-GET /api/public-holidays?year={year}&code={code}
+GET https://public-holidays.toolhub.run/api/public-holidays?year={year}&code={code}
 ```
 
 ### Parameters
@@ -45,7 +45,7 @@ GET /api/public-holidays?year={year}&code={code}
 ### Example Request
 
 ```bash
-curl "http://localhost:3000/api/public-holidays?year=2025&code=cn"
+curl "https://public-holidays.toolhub.run/api/public-holidays?year=2025&code=cn"
 ```
 
 ### Example Response
