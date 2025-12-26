@@ -1,0 +1,181 @@
+[
+  {
+    "localName": "Neujahr",
+    "name": "New Year's Day",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Heilige Drei Könige",
+    "name": "Epiphany",
+    "code": "DE",
+    "fixed": true,
+    "global": false,
+    "counties": ["Baden-Württemberg", "Bayern", "Sachsen-Anhalt"],
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-01-06T00:00:00.000Z",
+    "endDate": "2023-01-06T23:59:59.999Z"
+  },
+  {
+    "localName": "Karfreitag",
+    "name": "Good Friday",
+    "code": "DE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-04-07T00:00:00.000Z",
+    "endDate": "2023-04-07T23:59:59.999Z"
+  },
+  {
+    "localName": "Ostermontag",
+    "name": "Easter Monday",
+    "code": "DE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-04-10T00:00:00.000Z",
+    "endDate": "2023-04-10T23:59:59.999Z"
+  },
+  {
+    "localName": "Tag der Arbeit",
+    "name": "Labour Day",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "endDate": "2023-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Christi Himmelfahrt",
+    "name": "Ascension Day",
+    "code": "DE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-05-18T00:00:00.000Z",
+    "endDate": "2023-05-18T23:59:59.999Z"
+  },
+  {
+    "localName": "Pfingstmontag",
+    "name": "Whit Monday",
+    "code": "DE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-05-29T00:00:00.000Z",
+    "endDate": "2023-05-29T23:59:59.999Z"
+  },
+  {
+    "localName": "Fronleichnam",
+    "name": "Corpus Christi",
+    "code": "DE",
+    "fixed": false,
+    "global": false,
+    "counties": [
+      "Baden-Württemberg",
+      "Bayern",
+      "Hessen",
+      "Nordrhein-Westfalen",
+      "Rheinland-Pfalz",
+      "Saarland"
+    ],
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-06-08T00:00:00.000Z",
+    "endDate": "2023-06-08T23:59:59.999Z"
+  },
+  {
+    "localName": "Tag der Deutschen Einheit",
+    "name": "German Unity Day",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1990,
+    "types": ["Public"],
+    "startDate": "2023-10-03T00:00:00.000Z",
+    "endDate": "2023-10-03T23:59:59.999Z"
+  },
+  {
+    "localName": "Reformationstag",
+    "name": "Reformation Day",
+    "code": "DE",
+    "fixed": true,
+    "global": false,
+    "counties": [
+      "Brandenburg",
+      "Bremen",
+      "Hamburg",
+      "Mecklenburg-Vorpommern",
+      "Niedersachsen",
+      "Sachsen",
+      "Sachsen-Anhalt",
+      "Schleswig-Holstein",
+      "Thüringen"
+    ],
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-10-31T00:00:00.000Z",
+    "endDate": "2023-10-31T23:59:59.999Z"
+  },
+  {
+    "localName": "Allerheiligen",
+    "name": "All Saints' Day",
+    "code": "DE",
+    "fixed": true,
+    "global": false,
+    "counties": [
+      "Baden-Württemberg",
+      "Bayern",
+      "Nordrhein-Westfalen",
+      "Rheinland-Pfalz",
+      "Saarland"
+    ],
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-11-01T00:00:00.000Z",
+    "endDate": "2023-11-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Erster Weihnachtstag",
+    "name": "Christmas Day",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-12-25T00:00:00.000Z",
+    "endDate": "2023-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Zweiter Weihnachtstag",
+    "name": "Boxing Day",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-12-26T00:00:00.000Z",
+    "endDate": "2023-12-26T23:59:59.999Z"
+  }
+]

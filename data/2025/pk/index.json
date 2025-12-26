@@ -1,0 +1,110 @@
+[
+  {
+    "localName": "पाकिस्तान का दिन",
+    "name": "Pakistan Day",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1940,
+    "types": ["Public"],
+    "startDate": "2025-03-23T00:00:00.000Z",
+    "endDate": "2025-03-23T23:59:59.999Z"
+  },
+  {
+    "localName": "عید الفطر",
+    "name": "Eid al-Fitr",
+    "code": "PK",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-03-31T00:00:00.000Z",
+    "endDate": "2025-04-02T23:59:59.999Z"
+  },
+  {
+    "localName": "مزدور دن",
+    "name": "Labour Day",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-05-01T00:00:00.000Z",
+    "endDate": "2025-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "عید الاضحی",
+    "name": "Eid al-Adha",
+    "code": "PK",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-06-07T00:00:00.000Z",
+    "endDate": "2025-06-09T23:59:59.999Z"
+  },
+  {
+    "localName": "اسلامی نیا سال",
+    "name": "Islamic New Year",
+    "code": "PK",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-06-27T00:00:00.000Z",
+    "endDate": "2025-06-27T23:59:59.999Z"
+  },
+  {
+    "localName": "یوم آزادی",
+    "name": "Independence Day",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1947,
+    "types": ["Public"],
+    "startDate": "2025-08-14T00:00:00.000Z",
+    "endDate": "2025-08-14T23:59:59.999Z"
+  },
+  {
+    "localName": "میلاد النبی",
+    "name": "Prophet Muhammad's Birthday",
+    "code": "PK",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-09-05T00:00:00.000Z",
+    "endDate": "2025-09-05T23:59:59.999Z"
+  },
+  {
+    "localName": "یوم اقبال",
+    "name": "Iqbal Day",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1877,
+    "types": ["Public"],
+    "startDate": "2025-11-09T00:00:00.000Z",
+    "endDate": "2025-11-09T23:59:59.999Z"
+  },
+  {
+    "localName": "قائد اعظم کا یوم ولادت",
+    "name": "Quaid-e-Azam's Birthday",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1876,
+    "types": ["Public"],
+    "startDate": "2025-12-25T00:00:00.000Z",
+    "endDate": "2025-12-25T23:59:59.999Z"
+  }
+]

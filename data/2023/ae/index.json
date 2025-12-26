@@ -1,0 +1,86 @@
+[
+  {
+    "localName": "رأس السنة الميلادية",
+    "name": "New Year's Day",
+    "code": "AE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الفطر",
+    "name": "Eid al-Fitr",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-04-21T00:00:00.000Z",
+    "endDate": "2023-04-24T23:59:59.999Z"
+  },
+  {
+    "localName": "وقفة عرفة",
+    "name": "Arafat Day",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-06-27T00:00:00.000Z",
+    "endDate": "2023-06-27T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الأضحى",
+    "name": "Eid al-Adha",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-06-28T00:00:00.000Z",
+    "endDate": "2023-07-01T23:59:59.999Z"
+  },
+  {
+    "localName": "رأس السنة الهجرية",
+    "name": "Islamic New Year",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-07-19T00:00:00.000Z",
+    "endDate": "2023-07-19T23:59:59.999Z"
+  },
+  {
+    "localName": "المولد النبوي",
+    "name": "Prophet Muhammad's Birthday",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-09-27T00:00:00.000Z",
+    "endDate": "2023-09-28T23:59:59.999Z"
+  },
+  {
+    "localName": "اليوم الوطني",
+    "name": "National Day",
+    "code": "AE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1971,
+    "types": ["Public"],
+    "startDate": "2023-12-02T00:00:00.000Z",
+    "endDate": "2023-12-03T23:59:59.999Z"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "localName": "元旦",
+    "name": "New Year's Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "春節",
+    "name": "Lunar New Year",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-02-08T00:00:00.000Z",
+    "endDate": "2024-02-14T23:59:59.999Z"
+  },
+  {
+    "localName": "和平紀念日",
+    "name": "Peace Memorial Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-02-28T00:00:00.000Z",
+    "endDate": "2024-02-28T23:59:59.999Z"
+  },
+  {
+    "localName": "清明節",
+    "name": "Tomb Sweeping Day",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-04-04T00:00:00.000Z",
+    "endDate": "2024-04-05T23:59:59.999Z"
+  },
+  {
+    "localName": "端午節",
+    "name": "Dragon Boat Festival",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-06-10T00:00:00.000Z",
+    "endDate": "2024-06-10T23:59:59.999Z"
+  },
+  {
+    "localName": "中秋節",
+    "name": "Mid-Autumn Festival",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-09-17T00:00:00.000Z",
+    "endDate": "2024-09-17T23:59:59.999Z"
+  },
+  {
+    "localName": "國慶日",
+    "name": "National Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1911,
+    "types": ["Public"],
+    "startDate": "2024-10-10T00:00:00.000Z",
+    "endDate": "2024-10-10T23:59:59.999Z"
+  }
+]

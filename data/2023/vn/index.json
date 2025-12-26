@@ -1,0 +1,74 @@
+[
+  {
+    "localName": "Tết Dương lịch",
+    "name": "New Year's Day",
+    "code": "VN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-02T23:59:59.999Z"
+  },
+  {
+    "localName": "Tết Nguyên Đán",
+    "name": "Lunar New Year",
+    "code": "VN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-01-20T00:00:00.000Z",
+    "endDate": "2023-01-26T23:59:59.999Z"
+  },
+  {
+    "localName": "Giỗ Tổ Hùng Vương",
+    "name": "Hung Kings' Festival",
+    "code": "VN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-04-29T00:00:00.000Z",
+    "endDate": "2023-04-29T23:59:59.999Z"
+  },
+  {
+    "localName": "Ngày Thống nhất",
+    "name": "Reunification Day",
+    "code": "VN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1975,
+    "types": ["Public"],
+    "startDate": "2023-04-30T00:00:00.000Z",
+    "endDate": "2023-04-30T23:59:59.999Z"
+  },
+  {
+    "localName": "Ngày Quốc tế Lao động",
+    "name": "International Labour Day",
+    "code": "VN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "endDate": "2023-05-03T23:59:59.999Z"
+  },
+  {
+    "localName": "Quốc khánh",
+    "name": "National Day",
+    "code": "VN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1945,
+    "types": ["Public"],
+    "startDate": "2023-09-02T00:00:00.000Z",
+    "endDate": "2023-09-04T23:59:59.999Z"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "Nieuwjaarsdag",
+    "name": "New Year's Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Paasmaandag",
+    "name": "Easter Monday",
+    "code": "BE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-04-21T00:00:00.000Z",
+    "endDate": "2025-04-21T23:59:59.999Z"
+  },
+  {
+    "localName": "Dag van de Arbeid",
+    "name": "Labour Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-05-01T00:00:00.000Z",
+    "endDate": "2025-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "O.L.H. Hemelvaart",
+    "name": "Ascension Day",
+    "code": "BE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-05-29T00:00:00.000Z",
+    "endDate": "2025-05-29T23:59:59.999Z"
+  },
+  {
+    "localName": "Pinkstermaandag",
+    "name": "Whit Monday",
+    "code": "BE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-06-09T00:00:00.000Z",
+    "endDate": "2025-06-09T23:59:59.999Z"
+  },
+  {
+    "localName": "Nationale feestdag",
+    "name": "National Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1831,
+    "types": ["Public"],
+    "startDate": "2025-07-21T00:00:00.000Z",
+    "endDate": "2025-07-21T23:59:59.999Z"
+  },
+  {
+    "localName": "O.L.V. Hemelvaart",
+    "name": "Assumption of Mary",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-08-15T00:00:00.000Z",
+    "endDate": "2025-08-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Allerheiligen",
+    "name": "All Saints' Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-11-01T00:00:00.000Z",
+    "endDate": "2025-11-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Wapenstilstand",
+    "name": "Armistice Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1918,
+    "types": ["Public"],
+    "startDate": "2025-11-11T00:00:00.000Z",
+    "endDate": "2025-11-11T23:59:59.999Z"
+  },
+  {
+    "localName": "Kerstmis",
+    "name": "Christmas Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-12-25T00:00:00.000Z",
+    "endDate": "2025-12-25T23:59:59.999Z"
+  }
+]

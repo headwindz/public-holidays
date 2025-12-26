@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "বাংলা নববর্ষ",
+    "name": "Pohela Boishakh",
+    "code": "BD",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-04-14T00:00:00.000Z",
+    "endDate": "2024-04-14T23:59:59.999Z"
+  },
+  {
+    "localName": "স্বাধীনতা দিবস",
+    "name": "Independence Day",
+    "code": "BD",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1971,
+    "types": ["Public"],
+    "startDate": "2024-03-26T00:00:00.000Z",
+    "endDate": "2024-03-26T23:59:59.999Z"
+  },
+  {
+    "localName": "ঈদ-উল-ফিতর",
+    "name": "Eid al-Fitr",
+    "code": "BD",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-04-10T00:00:00.000Z",
+    "endDate": "2024-04-12T23:59:59.999Z"
+  },
+  {
+    "localName": "মে দিবস",
+    "name": "May Day",
+    "code": "BD",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "ঈদ-উল-আজহা",
+    "name": "Eid al-Adha",
+    "code": "BD",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-06-17T00:00:00.000Z",
+    "endDate": "2024-06-19T23:59:59.999Z"
+  },
+  {
+    "localName": "আশুরা",
+    "name": "Ashura",
+    "code": "BD",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-07-17T00:00:00.000Z",
+    "endDate": "2024-07-17T23:59:59.999Z"
+  },
+  {
+    "localName": "জাতীয় শোক দিবস",
+    "name": "National Mourning Day",
+    "code": "BD",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-08-15T00:00:00.000Z",
+    "endDate": "2024-08-15T23:59:59.999Z"
+  },
+  {
+    "localName": "মহানবী হযরত মোহাম্মদ এর জন্মদিন",
+    "name": "Prophet Muhammad's Birthday",
+    "code": "BD",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-09-16T00:00:00.000Z",
+    "endDate": "2024-09-16T23:59:59.999Z"
+  },
+  {
+    "localName": "বিজয় দিবস",
+    "name": "Victory Day",
+    "code": "BD",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1971,
+    "types": ["Public"],
+    "startDate": "2024-12-16T00:00:00.000Z",
+    "endDate": "2024-12-16T23:59:59.999Z"
+  },
+  {
+    "localName": "বড়দিন",
+    "name": "Christmas Day",
+    "code": "BD",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-12-25T00:00:00.000Z",
+    "endDate": "2024-12-25T23:59:59.999Z"
+  }
+]

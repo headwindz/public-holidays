@@ -1,0 +1,110 @@
+[
+  {
+    "localName": "Lá Caille",
+    "name": "New Year's Day",
+    "code": "IE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Lá Fhéile Pádraig",
+    "name": "St. Patrick's Day",
+    "code": "IE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-03-17T00:00:00.000Z",
+    "endDate": "2024-03-17T23:59:59.999Z"
+  },
+  {
+    "localName": "Luan Cásca",
+    "name": "Easter Monday",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-04-01T00:00:00.000Z",
+    "endDate": "2024-04-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Lá Bealtaine",
+    "name": "May Day",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-05-06T00:00:00.000Z",
+    "endDate": "2024-05-06T23:59:59.999Z"
+  },
+  {
+    "localName": "Lá Saoire i mí an Mheithimh",
+    "name": "June Bank Holiday",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-06-03T00:00:00.000Z",
+    "endDate": "2024-06-03T23:59:59.999Z"
+  },
+  {
+    "localName": "Lá Saoire i mí Lúnasa",
+    "name": "August Bank Holiday",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-08-05T00:00:00.000Z",
+    "endDate": "2024-08-05T23:59:59.999Z"
+  },
+  {
+    "localName": "Lá Saoire i mí Dheireadh Fómhair",
+    "name": "October Bank Holiday",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-10-28T00:00:00.000Z",
+    "endDate": "2024-10-28T23:59:59.999Z"
+  },
+  {
+    "localName": "Lá Nollag",
+    "name": "Christmas Day",
+    "code": "IE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-12-25T00:00:00.000Z",
+    "endDate": "2024-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Lá Fhéile Stiofáin",
+    "name": "St. Stephen's Day",
+    "code": "IE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-12-26T00:00:00.000Z",
+    "endDate": "2024-12-26T23:59:59.999Z"
+  }
+]

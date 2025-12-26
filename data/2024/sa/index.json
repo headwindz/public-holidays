@@ -1,0 +1,74 @@
+[
+  {
+    "localName": "يوم السعودية الوطني",
+    "name": "National Day",
+    "code": "SA",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1932,
+    "types": ["Public"],
+    "startDate": "2024-09-23T00:00:00.000Z",
+    "endDate": "2024-09-23T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الفطر",
+    "name": "Eid al-Fitr",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-04-10T00:00:00.000Z",
+    "endDate": "2024-04-13T23:59:59.999Z"
+  },
+  {
+    "localName": "وقفة عرفة",
+    "name": "Arafat Day",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-06-15T00:00:00.000Z",
+    "endDate": "2024-06-15T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الأضحى",
+    "name": "Eid al-Adha",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-06-16T00:00:00.000Z",
+    "endDate": "2024-06-19T23:59:59.999Z"
+  },
+  {
+    "localName": "رأس السنة الهجرية",
+    "name": "Islamic New Year",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-07-07T00:00:00.000Z",
+    "endDate": "2024-07-08T23:59:59.999Z"
+  },
+  {
+    "localName": "يوم التأسيس",
+    "name": "Founding Day",
+    "code": "SA",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1727,
+    "types": ["Public"],
+    "startDate": "2024-02-22T00:00:00.000Z",
+    "endDate": "2024-02-22T23:59:59.999Z"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "localName": "Republic Day",
+    "name": "Republic Day",
+    "code": "IN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1950,
+    "types": ["Public"],
+    "startDate": "2025-01-26T00:00:00.000Z",
+    "endDate": "2025-01-26T23:59:59.999Z"
+  },
+  {
+    "localName": "Holi",
+    "name": "Holi",
+    "code": "IN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-03-14T00:00:00.000Z",
+    "endDate": "2025-03-14T23:59:59.999Z"
+  },
+  {
+    "localName": "Good Friday",
+    "name": "Good Friday",
+    "code": "IN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-04-18T00:00:00.000Z",
+    "endDate": "2025-04-18T23:59:59.999Z"
+  },
+  {
+    "localName": "Independence Day",
+    "name": "Independence Day",
+    "code": "IN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1947,
+    "types": ["Public"],
+    "startDate": "2025-08-15T00:00:00.000Z",
+    "endDate": "2025-08-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Gandhi Jayanti",
+    "name": "Gandhi Jayanti",
+    "code": "IN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-10-02T00:00:00.000Z",
+    "endDate": "2025-10-02T23:59:59.999Z"
+  },
+  {
+    "localName": "Dussehra",
+    "name": "Dussehra",
+    "code": "IN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-10-02T00:00:00.000Z",
+    "endDate": "2025-10-02T23:59:59.999Z"
+  },
+  {
+    "localName": "Diwali",
+    "name": "Diwali",
+    "code": "IN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-10-20T00:00:00.000Z",
+    "endDate": "2025-10-20T23:59:59.999Z"
+  },
+  {
+    "localName": "Christmas Day",
+    "name": "Christmas Day",
+    "code": "IN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-12-25T00:00:00.000Z",
+    "endDate": "2025-12-25T23:59:59.999Z"
+  }
+]

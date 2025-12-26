@@ -1,0 +1,74 @@
+[
+  {
+    "localName": "Tết Dương lịch",
+    "name": "New Year's Day",
+    "code": "VN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Tết Nguyên Đán",
+    "name": "Lunar New Year",
+    "code": "VN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-01-28T00:00:00.000Z",
+    "endDate": "2025-02-03T23:59:59.999Z"
+  },
+  {
+    "localName": "Giỗ Tổ Hùng Vương",
+    "name": "Hung Kings Commemorations",
+    "code": "VN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-04-06T00:00:00.000Z",
+    "endDate": "2025-04-06T23:59:59.999Z"
+  },
+  {
+    "localName": "Ngày Thống nhất",
+    "name": "Reunification Day",
+    "code": "VN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1975,
+    "types": ["Public"],
+    "startDate": "2025-04-30T00:00:00.000Z",
+    "endDate": "2025-04-30T23:59:59.999Z"
+  },
+  {
+    "localName": "Ngày Quốc tế Lao động",
+    "name": "International Workers' Day",
+    "code": "VN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-05-01T00:00:00.000Z",
+    "endDate": "2025-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Quốc khánh",
+    "name": "National Day",
+    "code": "VN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1945,
+    "types": ["Public"],
+    "startDate": "2025-09-02T00:00:00.000Z",
+    "endDate": "2025-09-02T23:59:59.999Z"
+  }
+]

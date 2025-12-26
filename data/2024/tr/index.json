@@ -1,0 +1,110 @@
+[
+  {
+    "localName": "Yılbaşı",
+    "name": "New Year's Day",
+    "code": "TR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Ulusal Egemenlik ve Çocuk Bayramı",
+    "name": "National Sovereignty and Children's Day",
+    "code": "TR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1920,
+    "types": ["Public"],
+    "startDate": "2024-04-23T00:00:00.000Z",
+    "endDate": "2024-04-23T23:59:59.999Z"
+  },
+  {
+    "localName": "Ramazan Bayramı",
+    "name": "Eid al-Fitr",
+    "code": "TR",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-04-10T00:00:00.000Z",
+    "endDate": "2024-04-12T23:59:59.999Z"
+  },
+  {
+    "localName": "Emek ve Dayanışma Günü",
+    "name": "Labour Day",
+    "code": "TR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Atatürk'ü Anma Gençlik ve Spor Bayramı",
+    "name": "Commemoration of Atatürk, Youth and Sports Day",
+    "code": "TR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1919,
+    "types": ["Public"],
+    "startDate": "2024-05-19T00:00:00.000Z",
+    "endDate": "2024-05-19T23:59:59.999Z"
+  },
+  {
+    "localName": "Kurban Bayramı",
+    "name": "Eid al-Adha",
+    "code": "TR",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-06-16T00:00:00.000Z",
+    "endDate": "2024-06-19T23:59:59.999Z"
+  },
+  {
+    "localName": "Demokrasi ve Millî Birlik Günü",
+    "name": "Democracy and National Unity Day",
+    "code": "TR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 2016,
+    "types": ["Public"],
+    "startDate": "2024-07-15T00:00:00.000Z",
+    "endDate": "2024-07-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Zafer Bayramı",
+    "name": "Victory Day",
+    "code": "TR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1922,
+    "types": ["Public"],
+    "startDate": "2024-08-30T00:00:00.000Z",
+    "endDate": "2024-08-30T23:59:59.999Z"
+  },
+  {
+    "localName": "Cumhuriyet Bayramı",
+    "name": "Republic Day",
+    "code": "TR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1923,
+    "types": ["Public"],
+    "startDate": "2024-10-29T00:00:00.000Z",
+    "endDate": "2024-10-29T23:59:59.999Z"
+  }
+]

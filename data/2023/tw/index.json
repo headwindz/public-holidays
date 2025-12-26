@@ -1,0 +1,110 @@
+[
+  {
+    "localName": "元旦",
+    "name": "New Year's Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "農曆除夕",
+    "name": "Chinese New Year's Eve",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-01-21T00:00:00.000Z",
+    "endDate": "2023-01-21T23:59:59.999Z"
+  },
+  {
+    "localName": "春節",
+    "name": "Chinese New Year",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-01-22T00:00:00.000Z",
+    "endDate": "2023-01-25T23:59:59.999Z"
+  },
+  {
+    "localName": "和平紀念日",
+    "name": "Peace Memorial Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1947,
+    "types": ["Public"],
+    "startDate": "2023-02-28T00:00:00.000Z",
+    "endDate": "2023-02-28T23:59:59.999Z"
+  },
+  {
+    "localName": "兒童節",
+    "name": "Children's Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-04-04T00:00:00.000Z",
+    "endDate": "2023-04-04T23:59:59.999Z"
+  },
+  {
+    "localName": "清明節",
+    "name": "Tomb Sweeping Day",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-04-05T00:00:00.000Z",
+    "endDate": "2023-04-05T23:59:59.999Z"
+  },
+  {
+    "localName": "端午節",
+    "name": "Dragon Boat Festival",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-06-22T00:00:00.000Z",
+    "endDate": "2023-06-22T23:59:59.999Z"
+  },
+  {
+    "localName": "中秋節",
+    "name": "Mid-Autumn Festival",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-09-29T00:00:00.000Z",
+    "endDate": "2023-09-29T23:59:59.999Z"
+  },
+  {
+    "localName": "國慶日",
+    "name": "National Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1949,
+    "types": ["Public"],
+    "startDate": "2023-10-10T00:00:00.000Z",
+    "endDate": "2023-10-10T23:59:59.999Z"
+  }
+]

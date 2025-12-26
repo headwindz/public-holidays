@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "New Year's Day",
+    "name": "New Year's Day",
+    "code": "EG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "ثورة 25 يناير",
+    "name": "Revolution Day",
+    "code": "EG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 2011,
+    "types": ["Public"],
+    "startDate": "2025-01-25T00:00:00.000Z",
+    "endDate": "2025-01-25T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الفطر",
+    "name": "Eid al-Fitr",
+    "code": "EG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-03-31T00:00:00.000Z",
+    "endDate": "2025-04-03T23:59:59.999Z"
+  },
+  {
+    "localName": "شم النسيم",
+    "name": "Sham El Nessim",
+    "code": "EG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-04-21T00:00:00.000Z",
+    "endDate": "2025-04-21T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد العمال",
+    "name": "Labour Day",
+    "code": "EG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-05-01T00:00:00.000Z",
+    "endDate": "2025-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الأضحى",
+    "name": "Eid al-Adha",
+    "code": "EG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-06-07T00:00:00.000Z",
+    "endDate": "2025-06-10T23:59:59.999Z"
+  },
+  {
+    "localName": "رأس السنة الهجرية",
+    "name": "Islamic New Year",
+    "code": "EG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-06-27T00:00:00.000Z",
+    "endDate": "2025-06-27T23:59:59.999Z"
+  },
+  {
+    "localName": "ثورة 23 يوليو",
+    "name": "Revolution Day",
+    "code": "EG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1952,
+    "types": ["Public"],
+    "startDate": "2025-07-23T00:00:00.000Z",
+    "endDate": "2025-07-23T23:59:59.999Z"
+  },
+  {
+    "localName": "المولد النبوي",
+    "name": "Prophet Muhammad's Birthday",
+    "code": "EG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-09-05T00:00:00.000Z",
+    "endDate": "2025-09-05T23:59:59.999Z"
+  },
+  {
+    "localName": "ذكرى نصر أكتوبر",
+    "name": "Armed Forces Day",
+    "code": "EG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1973,
+    "types": ["Public"],
+    "startDate": "2025-10-06T00:00:00.000Z",
+    "endDate": "2025-10-06T23:59:59.999Z"
+  }
+]

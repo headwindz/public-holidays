@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "New Year's Day",
+    "name": "New Year's Day",
+    "code": "JM",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Ash Wednesday",
+    "name": "Ash Wednesday",
+    "code": "JM",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-03-05T00:00:00.000Z",
+    "endDate": "2025-03-05T23:59:59.999Z"
+  },
+  {
+    "localName": "Good Friday",
+    "name": "Good Friday",
+    "code": "JM",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-04-18T00:00:00.000Z",
+    "endDate": "2025-04-18T23:59:59.999Z"
+  },
+  {
+    "localName": "Easter Monday",
+    "name": "Easter Monday",
+    "code": "JM",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-04-21T00:00:00.000Z",
+    "endDate": "2025-04-21T23:59:59.999Z"
+  },
+  {
+    "localName": "Labour Day",
+    "name": "Labour Day",
+    "code": "JM",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-05-23T00:00:00.000Z",
+    "endDate": "2025-05-23T23:59:59.999Z"
+  },
+  {
+    "localName": "Emancipation Day",
+    "name": "Emancipation Day",
+    "code": "JM",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1834,
+    "types": ["Public"],
+    "startDate": "2025-08-01T00:00:00.000Z",
+    "endDate": "2025-08-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Independence Day",
+    "name": "Independence Day",
+    "code": "JM",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1962,
+    "types": ["Public"],
+    "startDate": "2025-08-06T00:00:00.000Z",
+    "endDate": "2025-08-06T23:59:59.999Z"
+  },
+  {
+    "localName": "National Heroes Day",
+    "name": "National Heroes Day",
+    "code": "JM",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-10-20T00:00:00.000Z",
+    "endDate": "2025-10-20T23:59:59.999Z"
+  },
+  {
+    "localName": "Christmas Day",
+    "name": "Christmas Day",
+    "code": "JM",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-12-25T00:00:00.000Z",
+    "endDate": "2025-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Boxing Day",
+    "name": "Boxing Day",
+    "code": "JM",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-12-26T00:00:00.000Z",
+    "endDate": "2025-12-26T23:59:59.999Z"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "localName": "عيد الفطر",
+    "name": "Eid al-Fitr",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-03-30T00:00:00.000Z",
+    "endDate": "2025-04-02T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الأضحى",
+    "name": "Eid al-Adha",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-06-06T00:00:00.000Z",
+    "endDate": "2025-06-10T23:59:59.999Z"
+  },
+  {
+    "localName": "رأس السنة الهجرية",
+    "name": "Islamic New Year",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-06-26T00:00:00.000Z",
+    "endDate": "2025-06-26T23:59:59.999Z"
+  },
+  {
+    "localName": "المولد النبوي",
+    "name": "Prophet's Birthday",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-09-04T00:00:00.000Z",
+    "endDate": "2025-09-04T23:59:59.999Z"
+  },
+  {
+    "localName": "اليوم الوطني",
+    "name": "National Day",
+    "code": "SA",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1932,
+    "types": ["Public"],
+    "startDate": "2025-09-23T00:00:00.000Z",
+    "endDate": "2025-09-23T23:59:59.999Z"
+  }
+]

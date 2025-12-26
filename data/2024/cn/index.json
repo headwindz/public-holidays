@@ -1,0 +1,86 @@
+[
+  {
+    "localName": "元旦",
+    "name": "New Year's Day",
+    "code": "CN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-01-01T00:00:00.000Z",
+    "endDate": "2024-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "春节",
+    "name": "Spring Festival (Chinese New Year)",
+    "code": "CN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-02-10T00:00:00.000Z",
+    "endDate": "2024-02-17T23:59:59.999Z"
+  },
+  {
+    "localName": "清明节",
+    "name": "Tomb Sweeping Day (Qingming Festival)",
+    "code": "CN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-04-04T00:00:00.000Z",
+    "endDate": "2024-04-06T23:59:59.999Z"
+  },
+  {
+    "localName": "劳动节",
+    "name": "Labor Day",
+    "code": "CN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-05-01T00:00:00.000Z",
+    "endDate": "2024-05-05T23:59:59.999Z"
+  },
+  {
+    "localName": "端午节",
+    "name": "Dragon Boat Festival",
+    "code": "CN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-06-10T00:00:00.000Z",
+    "endDate": "2024-06-10T23:59:59.999Z"
+  },
+  {
+    "localName": "中秋节",
+    "name": "Mid-Autumn Festival",
+    "code": "CN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-09-15T00:00:00.000Z",
+    "endDate": "2024-09-17T23:59:59.999Z"
+  },
+  {
+    "localName": "国庆节",
+    "name": "National Day",
+    "code": "CN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1949,
+    "types": ["Public"],
+    "startDate": "2024-10-01T00:00:00.000Z",
+    "endDate": "2024-10-07T23:59:59.999Z"
+  }
+]

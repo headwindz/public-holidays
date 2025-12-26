@@ -1,0 +1,86 @@
+[
+  {
+    "localName": "ראש השנה",
+    "name": "Rosh Hashanah",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-10-03T00:00:00.000Z",
+    "endDate": "2024-10-04T23:59:59.999Z"
+  },
+  {
+    "localName": "יום כיפור",
+    "name": "Yom Kippur",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-10-12T00:00:00.000Z",
+    "endDate": "2024-10-12T23:59:59.999Z"
+  },
+  {
+    "localName": "סוכות",
+    "name": "Sukkot",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-10-17T00:00:00.000Z",
+    "endDate": "2024-10-17T23:59:59.999Z"
+  },
+  {
+    "localName": "שמחת תורה",
+    "name": "Simchat Torah",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-10-25T00:00:00.000Z",
+    "endDate": "2024-10-25T23:59:59.999Z"
+  },
+  {
+    "localName": "פסח",
+    "name": "Passover",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-04-23T00:00:00.000Z",
+    "endDate": "2024-04-29T23:59:59.999Z"
+  },
+  {
+    "localName": "יום העצמאות",
+    "name": "Independence Day",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": 1948,
+    "types": ["Public"],
+    "startDate": "2024-05-14T00:00:00.000Z",
+    "endDate": "2024-05-14T23:59:59.999Z"
+  },
+  {
+    "localName": "שבועות",
+    "name": "Shavuot",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2024-06-12T00:00:00.000Z",
+    "endDate": "2024-06-12T23:59:59.999Z"
+  }
+]

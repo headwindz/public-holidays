@@ -1,0 +1,110 @@
+[
+  {
+    "localName": "یومِ پاکستان",
+    "name": "Pakistan Day",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1940,
+    "types": ["Public"],
+    "startDate": "2023-03-23T00:00:00.000Z",
+    "endDate": "2023-03-23T23:59:59.999Z"
+  },
+  {
+    "localName": "عید الفطر",
+    "name": "Eid al-Fitr",
+    "code": "PK",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-04-21T00:00:00.000Z",
+    "endDate": "2023-04-23T23:59:59.999Z"
+  },
+  {
+    "localName": "یومِ مزدور",
+    "name": "Labour Day",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "endDate": "2023-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "عید الاضحی",
+    "name": "Eid al-Adha",
+    "code": "PK",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-06-28T00:00:00.000Z",
+    "endDate": "2023-06-30T23:59:59.999Z"
+  },
+  {
+    "localName": "عاشورہ",
+    "name": "Ashura",
+    "code": "PK",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-07-28T00:00:00.000Z",
+    "endDate": "2023-07-29T23:59:59.999Z"
+  },
+  {
+    "localName": "یومِ آزادی",
+    "name": "Independence Day",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1947,
+    "types": ["Public"],
+    "startDate": "2023-08-14T00:00:00.000Z",
+    "endDate": "2023-08-14T23:59:59.999Z"
+  },
+  {
+    "localName": "عید میلاد النبی",
+    "name": "Eid Milad-un-Nabi",
+    "code": "PK",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-09-27T00:00:00.000Z",
+    "endDate": "2023-09-28T23:59:59.999Z"
+  },
+  {
+    "localName": "یومِ اقبال",
+    "name": "Iqbal Day",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-11-09T00:00:00.000Z",
+    "endDate": "2023-11-09T23:59:59.999Z"
+  },
+  {
+    "localName": "یومِ قائداعظم",
+    "name": "Quaid-e-Azam Day",
+    "code": "PK",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-12-25T00:00:00.000Z",
+    "endDate": "2023-12-25T23:59:59.999Z"
+  }
+]

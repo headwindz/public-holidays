@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "Ano Novo",
+    "name": "New Year's Day",
+    "code": "BR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-01-01T00:00:00.000Z",
+    "endDate": "2025-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Carnaval",
+    "name": "Carnival",
+    "code": "BR",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-03-03T00:00:00.000Z",
+    "endDate": "2025-03-04T23:59:59.999Z"
+  },
+  {
+    "localName": "Sexta-feira Santa",
+    "name": "Good Friday",
+    "code": "BR",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-04-18T00:00:00.000Z",
+    "endDate": "2025-04-18T23:59:59.999Z"
+  },
+  {
+    "localName": "Tiradentes",
+    "name": "Tiradentes' Day",
+    "code": "BR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-04-21T00:00:00.000Z",
+    "endDate": "2025-04-21T23:59:59.999Z"
+  },
+  {
+    "localName": "Dia do Trabalho",
+    "name": "Labour Day",
+    "code": "BR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-05-01T00:00:00.000Z",
+    "endDate": "2025-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Independência do Brasil",
+    "name": "Independence Day",
+    "code": "BR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1822,
+    "types": ["Public"],
+    "startDate": "2025-09-07T00:00:00.000Z",
+    "endDate": "2025-09-07T23:59:59.999Z"
+  },
+  {
+    "localName": "Nossa Senhora Aparecida",
+    "name": "Our Lady of Aparecida",
+    "code": "BR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-10-12T00:00:00.000Z",
+    "endDate": "2025-10-12T23:59:59.999Z"
+  },
+  {
+    "localName": "Finados",
+    "name": "All Souls' Day",
+    "code": "BR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-11-02T00:00:00.000Z",
+    "endDate": "2025-11-02T23:59:59.999Z"
+  },
+  {
+    "localName": "Proclamação da República",
+    "name": "Republic Day",
+    "code": "BR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1889,
+    "types": ["Public"],
+    "startDate": "2025-11-15T00:00:00.000Z",
+    "endDate": "2025-11-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Natal",
+    "name": "Christmas Day",
+    "code": "BR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2025-12-25T00:00:00.000Z",
+    "endDate": "2025-12-25T23:59:59.999Z"
+  }
+]

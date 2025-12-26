@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "Año Nuevo",
+    "name": "New Year's Day",
+    "code": "CR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-01-01T00:00:00.000Z",
+    "endDate": "2023-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Jueves Santo",
+    "name": "Maundy Thursday",
+    "code": "CR",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-04-06T00:00:00.000Z",
+    "endDate": "2023-04-06T23:59:59.999Z"
+  },
+  {
+    "localName": "Viernes Santo",
+    "name": "Good Friday",
+    "code": "CR",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-04-07T00:00:00.000Z",
+    "endDate": "2023-04-07T23:59:59.999Z"
+  },
+  {
+    "localName": "Batalla de Rivas",
+    "name": "Battle of Rivas",
+    "code": "CR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1856,
+    "types": ["Public"],
+    "startDate": "2023-04-11T00:00:00.000Z",
+    "endDate": "2023-04-11T23:59:59.999Z"
+  },
+  {
+    "localName": "Día del Trabajo",
+    "name": "Labour Day",
+    "code": "CR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-05-01T00:00:00.000Z",
+    "endDate": "2023-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Anexión del Partido de Nicoya",
+    "name": "Annexation of Guanacaste",
+    "code": "CR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1824,
+    "types": ["Public"],
+    "startDate": "2023-07-25T00:00:00.000Z",
+    "endDate": "2023-07-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Día de la Madre",
+    "name": "Mother's Day",
+    "code": "CR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-08-15T00:00:00.000Z",
+    "endDate": "2023-08-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Día de la Independencia",
+    "name": "Independence Day",
+    "code": "CR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": 1821,
+    "types": ["Public"],
+    "startDate": "2023-09-15T00:00:00.000Z",
+    "endDate": "2023-09-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Día de las Culturas",
+    "name": "Day of Cultures",
+    "code": "CR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-10-12T00:00:00.000Z",
+    "endDate": "2023-10-12T23:59:59.999Z"
+  },
+  {
+    "localName": "Navidad",
+    "name": "Christmas Day",
+    "code": "CR",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2023-12-25T00:00:00.000Z",
+    "endDate": "2023-12-25T23:59:59.999Z"
+  }
+]
