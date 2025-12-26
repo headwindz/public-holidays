@@ -34,7 +34,7 @@ const FlagIcon = ({
 export default function Home() {
   const [year, setYear] = useState('2025')
   const [code, setCode] = useState('cn')
-  const [response, setResponse] = useState<any>(null)
+  const [response, setResponse] = useState(null)
   const [loading, setLoading] = useState(false)
   const [isExpanded, setIsExpanded] = useState(true)
   const [showAllCountries, setShowAllCountries] = useState(false)
@@ -48,6 +48,7 @@ export default function Home() {
       setResponse(data)
       setIsExpanded(true)
     } catch (error) {
+      // @ts-expect-error null
       setResponse({ error: 'Error fetching data' })
       setIsExpanded(true)
     } finally {
@@ -386,7 +387,7 @@ export default function Home() {
                                         >
                                           <FlagIcon
                                             code={country.code}
-                                            className="rounded flex-shrink-0 h-4 w-6"
+                                            className="rounded h-4 w-6 shrink-0"
                                           />
                                           <span className="truncate">
                                             {country.code} - {country.name}
@@ -531,7 +532,7 @@ export default function Home() {
                         isExpanded ? 'opacity-100' : 'max-h-0 opacity-0'
                       }`}
                     >
-                      <div className="rounded-lg bg-gray-900 max-h-[800px] p-4 overflow-auto">
+                      <div className="rounded-lg bg-gray-900 max-h-200 p-4 overflow-auto">
                         <JsonView
                           src={response}
                           theme="winter-is-coming"
@@ -592,7 +593,7 @@ export default function Home() {
                       </code>
                     </td>
                     <td className="py-3">string</td>
-                    <td className="py-3">Year (e.g., "2024", "2025")</td>
+                    <td className="py-3">{`Year (e.g., "2024", "2025")`}</td>
                   </tr>
                   <tr>
                     <td className="py-3">
@@ -602,7 +603,7 @@ export default function Home() {
                     </td>
                     <td className="py-3">string</td>
                     <td className="py-3">
-                      ISO 2-letter country/region code (e.g., "cn", "us", "uk")
+                      {`ISO 2-letter country/region code (e.g., "cn", "us", "uk")`}
                     </td>
                   </tr>
                 </tbody>
