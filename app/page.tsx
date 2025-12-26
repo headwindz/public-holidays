@@ -61,8 +61,8 @@ export default function Home() {
       {/* Hero Section */}
       <header className="border-gray-200 dark:border-gray-700">
         <div className="flex mx-auto max-w-7xl py-4 px-4 items-center justify-between sm:px-6 lg:px-8">
-          <div className="flex space-x-2 items-center">
-            <span className="text-2xl">🌍</span>
+          <div className="flex space-x-4 items-center">
+            <img src="/favicon.ico" alt="Logo" className="h-6 w-6" />
             <span className="font-bold text-xl text-gray-900 dark:text-white">
               Public Holidays API
             </span>
