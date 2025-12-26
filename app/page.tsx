@@ -7,10 +7,15 @@ import { SUPPORTED_COUNTRIES_REGIONS } from './constants'
 import { Listbox, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
 import { FlagIcon } from '@/components/FlagIcon'
+import { Header } from '@/components/Header'
+import { Hero } from '@/components/Hero'
 import { FeatureSection } from '@/components/FeatureSection'
+import { QueryParams } from '@/components/QueryParams'
+import { ResponseFormat } from '@/components/ResponseFormat'
 import { ExampleUsage } from '@/components/ExampleUsage'
 import { Card } from '@/components/Card'
 import { CardTitle } from '@/components/CardTitle'
+import { SupportedCountries } from '@/components/SupportedCountries'
 
 export default function Home() {
   const [year, setYear] = useState('2025')
@@ -18,7 +23,6 @@ export default function Home() {
   const [response, setResponse] = useState(null)
   const [loading, setLoading] = useState(false)
   const [isExpanded, setIsExpanded] = useState(true)
-  const [showAllCountries, setShowAllCountries] = useState(false)
   const [countrySearch, setCountrySearch] = useState('')
 
   const handleTryIt = async () => {
@@ -39,65 +43,11 @@ export default function Home() {
 
   return (
     <div className="bg-gradient-to-b to-white min-h-screen from-blue-50 dark:from-gray-900 dark:to-gray-800">
-      {/* Hero Section */}
-      <header className="border-gray-200 dark:border-gray-700">
-        <div className="flex mx-auto max-w-7xl py-4 px-4 items-center justify-between sm:px-6 lg:px-8">
-          <div className="flex space-x-4 items-center">
-            <img src="/favicon.ico" alt="Logo" className="h-6 w-6" />
-            <span className="font-bold text-xl text-gray-900 dark:text-white">
-              Public Holidays API
-            </span>
-          </div>
-          <a
-            href="https://github.com/headwindz/public-holidays"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm transition-colors text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
-            aria-label="View on GitHub"
-          >
-            <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                fillRule="evenodd"
-                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </a>
-        </div>
-      </header>
+      <Header />
 
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Hero */}
-        <section className="text-center py-20">
-          <h1 className="font-extrabold tracking-tight text-5xl text-gray-900 sm:text-6xl dark:text-white">
-            Accurate Public Holiday Data
-            <br />
-            <span className="text-blue-600 dark:text-blue-400">
-              For Every Country/Region
-            </span>
-          </h1>
-          <p className="mx-auto mt-6 text-xl max-w-3xl text-gray-600 dark:text-gray-300">
-            Free and open-source API providing comprehensive public holiday
-            information for 59 countries/regions worldwide. Perfect for
-            scheduling, calendar apps, and HR systems.
-          </p>
-          <div className="flex flex-col mt-10 gap-4 justify-center sm:flex-row">
-            <a
-              href="#try-it"
-              className="rounded-lg font-semibold bg-blue-600 shadow-lg text-white py-4 px-8 transition-colors hover:bg-blue-700"
-            >
-              Try It Now
-            </a>
-            <a
-              href="#documentation"
-              className="bg-white rounded-lg font-semibold shadow-lg py-4 px-8 transition-colors text-gray-900 dark:bg-gray-800 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700"
-            >
-              View Documentation
-            </a>
-          </div>
-        </section>
+        <Hero />
 
-        {/* Features */}
         <FeatureSection />
 
         {/* Try It Section */}
@@ -511,147 +461,11 @@ export default function Home() {
               </div>
             </Card>
 
-            <Card>
-              <CardTitle>Query Parameters</CardTitle>
-              <table className="w-full">
-                <thead>
-                  <tr className="border-b border-gray-200 dark:border-gray-700">
-                    <th className="text-left py-2 text-gray-700 dark:text-gray-300">
-                      Parameter
-                    </th>
-                    <th className="text-left py-2 text-gray-700 dark:text-gray-300">
-                      Type
-                    </th>
-                    <th className="text-left py-2 text-gray-700 dark:text-gray-300">
-                      Description
-                    </th>
-                  </tr>
-                </thead>
-                <tbody className="text-gray-600 dark:text-gray-400">
-                  <tr className="border-b border-gray-100 dark:border-gray-700">
-                    <td className="py-3">
-                      <code className="text-blue-600 dark:text-blue-400">
-                        year
-                      </code>
-                    </td>
-                    <td className="py-3">string</td>
-                    <td className="py-3">{`Year (e.g., "2024", "2025")`}</td>
-                  </tr>
-                  <tr>
-                    <td className="py-3">
-                      <code className="text-blue-600 dark:text-blue-400">
-                        code
-                      </code>
-                    </td>
-                    <td className="py-3">string</td>
-                    <td className="py-3">
-                      {`ISO 2-letter country/region code (e.g., "cn", "us", "uk")`}
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </Card>
+            <QueryParams />
 
-            <Card>
-              <CardTitle>Response Format</CardTitle>
-              <div className="rounded-lg bg-gray-900 p-4 overflow-x-auto">
-                <JsonView
-                  src={{
-                    data: [
-                      {
-                        localName: '元旦',
-                        name: "New Year's Day",
-                        code: 'CN',
-                        fixed: true,
-                        global: true,
-                        counties: null,
-                        launchYear: null,
-                        types: ['Public'],
-                        startDate: '2025-01-01T00:00:00.000Z',
-                        endDate: '2025-01-01T23:59:59.999Z',
-                      },
-                    ],
-                  }}
-                  theme="winter-is-coming"
-                  collapsed={false}
-                  collapseStringsAfterLength={100}
-                  enableClipboard={true}
-                />
-              </div>
-            </Card>
+            <ResponseFormat />
 
-            <Card>
-              <CardTitle>Supported Countries & Regions (59)</CardTitle>
-              <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                {(showAllCountries
-                  ? SUPPORTED_COUNTRIES_REGIONS
-                  : SUPPORTED_COUNTRIES_REGIONS.slice(0, 12)
-                ).map((countryOrRegions) => (
-                  <div
-                    key={countryOrRegions.code}
-                    className="bg-gradient-to-r to-white border rounded-lg flex from-gray-50 border-gray-200 p-3 transition-all gap-3 items-center dark:from-gray-700 dark:to-gray-800 dark:border-gray-600 hover:shadow-md hover:scale-105"
-                  >
-                    <FlagIcon
-                      code={countryOrRegions.code}
-                      className="rounded h-8 w-12"
-                    />
-                    <div className="flex-1 min-w-0">
-                      <div className="font-semibold text-sm text-gray-900 truncate dark:text-white">
-                        {countryOrRegions.name}
-                      </div>
-                      <div className="text-xs text-gray-500 dark:text-gray-400">
-                        {countryOrRegions.code}
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-4 text-center">
-                <button
-                  onClick={() => setShowAllCountries(!showAllCountries)}
-                  className="font-medium text-sm py-2 px-4 transition-colors text-blue-600 gap-2 inline-flex items-center dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300"
-                >
-                  {showAllCountries ? (
-                    <>
-                      <span>View less</span>
-                      <svg
-                        className="h-4 w-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M5 15l7-7 7 7"
-                        />
-                      </svg>
-                    </>
-                  ) : (
-                    <>
-                      <span>
-                        View more ({SUPPORTED_COUNTRIES_REGIONS.length - 12}{' '}
-                        more)
-                      </span>
-                      <svg
-                        className="h-4 w-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M19 9l-7 7-7-7"
-                        />
-                      </svg>
-                    </>
-                  )}
-                </button>
-              </div>
-            </Card>
+            <SupportedCountries />
 
             <ExampleUsage />
           </div>

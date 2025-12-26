@@ -81,44 +81,49 @@ const examples: Example[] = [
   },
 ]
 
+const renderExample = ({
+  title,
+  language,
+  code,
+  icon,
+  gradientFrom,
+  gradientTo,
+}: Example) => (
+  <div
+    key={title}
+    className="border rounded-lg border-gray-200 overflow-hidden dark:border-gray-700"
+  >
+    <div
+      className={`bg-linear-to-r border-b ${gradientFrom} ${gradientTo} border-gray-200 py-3 px-4 dark:from-gray-700 dark:to-gray-750 dark:border-gray-600`}
+    >
+      <div className="flex gap-2 items-center justify-between">
+        <div className="flex gap-2 items-center">
+          {icon}
+          <h4 className="font-semibold text-sm dark:text-white">{title}</h4>
+        </div>
+        <CopyButton text={code} />
+      </div>
+    </div>
+    <SyntaxHighlighter
+      language={language}
+      style={vscDarkPlus}
+      customStyle={{
+        margin: 0,
+        fontSize: '0.875rem',
+        padding: '1rem',
+      }}
+      showLineNumbers={true}
+    >
+      {code}
+    </SyntaxHighlighter>
+  </div>
+)
+
 export const ExampleUsage = () => {
   return (
     <Card>
       <CardTitle>Example Usage</CardTitle>
-      <div className="space-y-6">
-        {examples.map((example) => (
-          <div
-            key={example.title}
-            className="border rounded-lg border-gray-200 overflow-hidden dark:border-gray-700"
-          >
-            <div
-              className={`bg-linear-to-r border-b ${example.gradientFrom} ${example.gradientTo} border-gray-200 py-3 px-4 dark:from-gray-700 dark:to-gray-750 dark:border-gray-600`}
-            >
-              <div className="flex gap-2 items-center justify-between">
-                <div className="flex gap-2 items-center">
-                  {example.icon}
-                  <h4 className="font-semibold text-sm dark:text-white">
-                    {example.title}
-                  </h4>
-                </div>
-                <CopyButton text={example.code} />
-              </div>
-            </div>
-            <SyntaxHighlighter
-              language={example.language}
-              style={vscDarkPlus}
-              customStyle={{
-                margin: 0,
-                fontSize: '0.875rem',
-                padding: '1rem',
-              }}
-              showLineNumbers={true}
-            >
-              {example.code}
-            </SyntaxHighlighter>
-          </div>
-        ))}
-      </div>
+      <div className="space-y-6">{examples.map(renderExample)}</div>
     </Card>
   )
 }
