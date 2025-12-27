@@ -11,6 +11,7 @@ import { ExampleUsage } from '@/components/ExampleUsage'
 import { Card } from '@/components/Card'
 import { CardTitle } from '@/components/CardTitle'
 import { SupportedCountries } from '@/components/SupportedCountries'
+import { ApiEndpoints } from '@/components/ApiEndpoints'
 
 export default function Home() {
   return (
@@ -29,8 +30,9 @@ export default function Home() {
           <SectionTitle>API Documentation</SectionTitle>
 
           <div className="mx-auto space-y-8 max-w-4xl">
+            <ApiEndpoints />
             <Card>
-              <CardTitle>Endpoint</CardTitle>
+              <CardTitle>Get Public Holidays</CardTitle>
               <div className="rounded-lg bg-gray-50 p-4 dark:bg-gray-900">
                 <code className="text-blue-600 dark:text-blue-400">
                   GET /api/public-holidays
