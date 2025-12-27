@@ -1,19 +1,9 @@
 import { NextRequest } from 'next/server'
 import { readFile } from 'fs/promises'
 import path from 'path'
+import { corsHeaders, handleOPTIONS as OPTIONS } from '../cors'
 
-const corsHeaders = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
-}
-
-export async function OPTIONS() {
-  return new Response(null, {
-    status: 204,
-    headers: corsHeaders,
-  })
-}
+export { OPTIONS }
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
