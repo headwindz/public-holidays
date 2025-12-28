@@ -1,0 +1,86 @@
+[
+  {
+    "localName": "رأس السنة الميلادية",
+    "name": "New Year's Day",
+    "code": "AE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "endDate": "2022-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الفطر",
+    "name": "Eid al-Fitr",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-02T00:00:00.000Z",
+    "endDate": "2022-05-04T23:59:59.999Z"
+  },
+  {
+    "localName": "وقفة عرفة",
+    "name": "Arafat Day",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-07-08T00:00:00.000Z",
+    "endDate": "2022-07-08T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الأضحى",
+    "name": "Eid al-Adha",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-07-09T00:00:00.000Z",
+    "endDate": "2022-07-11T23:59:59.999Z"
+  },
+  {
+    "localName": "رأس السنة الهجرية",
+    "name": "Islamic New Year",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-07-30T00:00:00.000Z",
+    "endDate": "2022-07-30T23:59:59.999Z"
+  },
+  {
+    "localName": "المولد النبوي",
+    "name": "Prophet's Birthday",
+    "code": "AE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-10-08T00:00:00.000Z",
+    "endDate": "2022-10-08T23:59:59.999Z"
+  },
+  {
+    "localName": "اليوم الوطني",
+    "name": "National Day",
+    "code": "AE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-02T00:00:00.000Z",
+    "endDate": "2022-12-03T23:59:59.999Z"
+  }
+]

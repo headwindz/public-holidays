@@ -1,0 +1,98 @@
+[
+  {
+    "localName": "New Year's Day",
+    "name": "New Year's Day",
+    "code": "CA",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "endDate": "2022-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Good Friday",
+    "name": "Good Friday",
+    "code": "CA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-15T00:00:00.000Z",
+    "endDate": "2022-04-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Victoria Day",
+    "name": "Victoria Day",
+    "code": "CA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-23T00:00:00.000Z",
+    "endDate": "2022-05-23T23:59:59.999Z"
+  },
+  {
+    "localName": "Canada Day",
+    "name": "Canada Day",
+    "code": "CA",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-07-01T00:00:00.000Z",
+    "endDate": "2022-07-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Labour Day",
+    "name": "Labour Day",
+    "code": "CA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-09-05T00:00:00.000Z",
+    "endDate": "2022-09-05T23:59:59.999Z"
+  },
+  {
+    "localName": "Thanksgiving",
+    "name": "Thanksgiving",
+    "code": "CA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-10-10T00:00:00.000Z",
+    "endDate": "2022-10-10T23:59:59.999Z"
+  },
+  {
+    "localName": "Christmas Day",
+    "name": "Christmas Day",
+    "code": "CA",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-25T00:00:00.000Z",
+    "endDate": "2022-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Boxing Day",
+    "name": "Boxing Day",
+    "code": "CA",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-26T00:00:00.000Z",
+    "endDate": "2022-12-26T23:59:59.999Z"
+  }
+]

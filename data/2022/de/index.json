@@ -1,0 +1,110 @@
+[
+  {
+    "localName": "Neujahr",
+    "name": "New Year's Day",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "endDate": "2022-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Karfreitag",
+    "name": "Good Friday",
+    "code": "DE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-15T00:00:00.000Z",
+    "endDate": "2022-04-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Ostermontag",
+    "name": "Easter Monday",
+    "code": "DE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-18T00:00:00.000Z",
+    "endDate": "2022-04-18T23:59:59.999Z"
+  },
+  {
+    "localName": "Tag der Arbeit",
+    "name": "Labour Day",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-01T00:00:00.000Z",
+    "endDate": "2022-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Christi Himmelfahrt",
+    "name": "Ascension Day",
+    "code": "DE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-26T00:00:00.000Z",
+    "endDate": "2022-05-26T23:59:59.999Z"
+  },
+  {
+    "localName": "Pfingstmontag",
+    "name": "Whit Monday",
+    "code": "DE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-06-06T00:00:00.000Z",
+    "endDate": "2022-06-06T23:59:59.999Z"
+  },
+  {
+    "localName": "Tag der Deutschen Einheit",
+    "name": "German Unity Day",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-10-03T00:00:00.000Z",
+    "endDate": "2022-10-03T23:59:59.999Z"
+  },
+  {
+    "localName": "Erster Weihnachtstag",
+    "name": "Christmas Day",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-25T00:00:00.000Z",
+    "endDate": "2022-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Zweiter Weihnachtstag",
+    "name": "Second Day of Christmas",
+    "code": "DE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-26T00:00:00.000Z",
+    "endDate": "2022-12-26T23:59:59.999Z"
+  }
+]

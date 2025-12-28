@@ -51,10 +51,12 @@ export const TryIt = () => {
                 icon={<Calendar className="h-4 text-blue-500 w-4" />}
                 value={year}
                 onChange={setYear}
-                options={['2023', '2024', '2025'].map((y) => ({
-                  value: y,
-                  label: y,
-                }))}
+                options={['2020', '2021', '2022', '2023', '2024', '2025'].map(
+                  (y) => ({
+                    value: y,
+                    label: y,
+                  })
+                )}
               />
               <Dropdown
                 label="Country/Region Code"

@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "New Year's Day",
+    "name": "New Year's Day",
+    "code": "AU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-01-01T00:00:00.000Z",
+    "endDate": "2021-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Australia Day",
+    "name": "Australia Day",
+    "code": "AU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-01-26T00:00:00.000Z",
+    "endDate": "2021-01-26T23:59:59.999Z"
+  },
+  {
+    "localName": "Good Friday",
+    "name": "Good Friday",
+    "code": "AU",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-04-02T00:00:00.000Z",
+    "endDate": "2021-04-02T23:59:59.999Z"
+  },
+  {
+    "localName": "Easter Saturday",
+    "name": "Easter Saturday",
+    "code": "AU",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-04-03T00:00:00.000Z",
+    "endDate": "2021-04-03T23:59:59.999Z"
+  },
+  {
+    "localName": "Easter Monday",
+    "name": "Easter Monday",
+    "code": "AU",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-04-05T00:00:00.000Z",
+    "endDate": "2021-04-05T23:59:59.999Z"
+  },
+  {
+    "localName": "Anzac Day",
+    "name": "Anzac Day",
+    "code": "AU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-04-25T00:00:00.000Z",
+    "endDate": "2021-04-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Queen's Birthday",
+    "name": "Queen's Birthday",
+    "code": "AU",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-06-14T00:00:00.000Z",
+    "endDate": "2021-06-14T23:59:59.999Z"
+  },
+  {
+    "localName": "Christmas Day",
+    "name": "Christmas Day",
+    "code": "AU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-12-25T00:00:00.000Z",
+    "endDate": "2021-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Boxing Day",
+    "name": "Boxing Day",
+    "code": "AU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-12-26T00:00:00.000Z",
+    "endDate": "2021-12-26T23:59:59.999Z"
+  },
+  {
+    "localName": "Boxing Day (substitute day)",
+    "name": "Boxing Day (substitute day)",
+    "code": "AU",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-12-27T00:00:00.000Z",
+    "endDate": "2021-12-27T23:59:59.999Z"
+  }
+]

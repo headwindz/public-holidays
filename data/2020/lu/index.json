@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "Neijoerschdag",
+    "name": "New Year's Day",
+    "code": "LU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-01-01T00:00:00.000Z",
+    "endDate": "2020-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Ouschterméindeg",
+    "name": "Easter Monday",
+    "code": "LU",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-04-13T00:00:00.000Z",
+    "endDate": "2020-04-13T23:59:59.999Z"
+  },
+  {
+    "localName": "Dag vun der Aarbecht",
+    "name": "Labour Day",
+    "code": "LU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-05-01T00:00:00.000Z",
+    "endDate": "2020-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Christi Himmelfaart",
+    "name": "Ascension Day",
+    "code": "LU",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-05-21T00:00:00.000Z",
+    "endDate": "2020-05-21T23:59:59.999Z"
+  },
+  {
+    "localName": "Péngschtméindeg",
+    "name": "Whit Monday",
+    "code": "LU",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-06-01T00:00:00.000Z",
+    "endDate": "2020-06-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Nationalfeierdag",
+    "name": "National Day",
+    "code": "LU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-06-23T00:00:00.000Z",
+    "endDate": "2020-06-23T23:59:59.999Z"
+  },
+  {
+    "localName": "Léiffrawëschdag",
+    "name": "Assumption of Mary",
+    "code": "LU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-08-15T00:00:00.000Z",
+    "endDate": "2020-08-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Allerhellgen",
+    "name": "All Saints' Day",
+    "code": "LU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-11-01T00:00:00.000Z",
+    "endDate": "2020-11-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Chrëschtdag",
+    "name": "Christmas Day",
+    "code": "LU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-12-25T00:00:00.000Z",
+    "endDate": "2020-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Stiefesdag",
+    "name": "St. Stephen's Day",
+    "code": "LU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-12-26T00:00:00.000Z",
+    "endDate": "2020-12-26T23:59:59.999Z"
+  }
+]

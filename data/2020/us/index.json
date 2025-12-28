@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "New Year's Day",
+    "name": "New Year's Day",
+    "code": "US",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-01-01T00:00:00.000Z",
+    "endDate": "2020-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Martin Luther King Jr. Day",
+    "name": "Martin Luther King Jr. Day",
+    "code": "US",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": 1986,
+    "types": ["Public"],
+    "startDate": "2020-01-20T00:00:00.000Z",
+    "endDate": "2020-01-20T23:59:59.999Z"
+  },
+  {
+    "localName": "Presidents' Day",
+    "name": "Presidents' Day",
+    "code": "US",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-02-17T00:00:00.000Z",
+    "endDate": "2020-02-17T23:59:59.999Z"
+  },
+  {
+    "localName": "Memorial Day",
+    "name": "Memorial Day",
+    "code": "US",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-05-25T00:00:00.000Z",
+    "endDate": "2020-05-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Independence Day",
+    "name": "Independence Day",
+    "code": "US",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-07-04T00:00:00.000Z",
+    "endDate": "2020-07-04T23:59:59.999Z"
+  },
+  {
+    "localName": "Labor Day",
+    "name": "Labor Day",
+    "code": "US",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-09-07T00:00:00.000Z",
+    "endDate": "2020-09-07T23:59:59.999Z"
+  },
+  {
+    "localName": "Columbus Day",
+    "name": "Columbus Day",
+    "code": "US",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-10-12T00:00:00.000Z",
+    "endDate": "2020-10-12T23:59:59.999Z"
+  },
+  {
+    "localName": "Veterans Day",
+    "name": "Veterans Day",
+    "code": "US",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-11-11T00:00:00.000Z",
+    "endDate": "2020-11-11T23:59:59.999Z"
+  },
+  {
+    "localName": "Thanksgiving Day",
+    "name": "Thanksgiving Day",
+    "code": "US",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-11-26T00:00:00.000Z",
+    "endDate": "2020-11-26T23:59:59.999Z"
+  },
+  {
+    "localName": "Christmas Day",
+    "name": "Christmas Day",
+    "code": "US",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-12-25T00:00:00.000Z",
+    "endDate": "2020-12-25T23:59:59.999Z"
+  }
+]

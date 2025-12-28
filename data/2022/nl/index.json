@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "Nieuwjaarsdag",
+    "name": "New Year's Day",
+    "code": "NL",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "endDate": "2022-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Goede Vrijdag",
+    "name": "Good Friday",
+    "code": "NL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-15T00:00:00.000Z",
+    "endDate": "2022-04-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Pasen",
+    "name": "Easter Sunday",
+    "code": "NL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-17T00:00:00.000Z",
+    "endDate": "2022-04-17T23:59:59.999Z"
+  },
+  {
+    "localName": "Tweede Paasdag",
+    "name": "Easter Monday",
+    "code": "NL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-18T00:00:00.000Z",
+    "endDate": "2022-04-18T23:59:59.999Z"
+  },
+  {
+    "localName": "Koningsdag",
+    "name": "King's Day",
+    "code": "NL",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-27T00:00:00.000Z",
+    "endDate": "2022-04-27T23:59:59.999Z"
+  },
+  {
+    "localName": "Hemelvaartsdag",
+    "name": "Ascension Day",
+    "code": "NL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-26T00:00:00.000Z",
+    "endDate": "2022-05-26T23:59:59.999Z"
+  },
+  {
+    "localName": "Pinksteren",
+    "name": "Whit Sunday",
+    "code": "NL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-06-05T00:00:00.000Z",
+    "endDate": "2022-06-05T23:59:59.999Z"
+  },
+  {
+    "localName": "Tweede Pinksterdag",
+    "name": "Whit Monday",
+    "code": "NL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-06-06T00:00:00.000Z",
+    "endDate": "2022-06-06T23:59:59.999Z"
+  },
+  {
+    "localName": "Eerste Kerstdag",
+    "name": "Christmas Day",
+    "code": "NL",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-25T00:00:00.000Z",
+    "endDate": "2022-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Tweede Kerstdag",
+    "name": "Second Day of Christmas",
+    "code": "NL",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-26T00:00:00.000Z",
+    "endDate": "2022-12-26T23:59:59.999Z"
+  }
+]

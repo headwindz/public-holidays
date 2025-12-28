@@ -1,0 +1,86 @@
+[
+  {
+    "localName": "元旦",
+    "name": "New Year's Day",
+    "code": "CN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "endDate": "2022-01-03T23:59:59.999Z"
+  },
+  {
+    "localName": "春节",
+    "name": "Chinese New Year",
+    "code": "CN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-01-31T00:00:00.000Z",
+    "endDate": "2022-02-06T23:59:59.999Z"
+  },
+  {
+    "localName": "清明节",
+    "name": "Qingming Festival",
+    "code": "CN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-03T00:00:00.000Z",
+    "endDate": "2022-04-05T23:59:59.999Z"
+  },
+  {
+    "localName": "劳动节",
+    "name": "Labour Day",
+    "code": "CN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-30T00:00:00.000Z",
+    "endDate": "2022-05-04T23:59:59.999Z"
+  },
+  {
+    "localName": "端午节",
+    "name": "Dragon Boat Festival",
+    "code": "CN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-06-03T00:00:00.000Z",
+    "endDate": "2022-06-05T23:59:59.999Z"
+  },
+  {
+    "localName": "中秋节",
+    "name": "Mid-Autumn Festival",
+    "code": "CN",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-09-10T00:00:00.000Z",
+    "endDate": "2022-09-12T23:59:59.999Z"
+  },
+  {
+    "localName": "国庆节",
+    "name": "National Day",
+    "code": "CN",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-10-01T00:00:00.000Z",
+    "endDate": "2022-10-07T23:59:59.999Z"
+  }
+]

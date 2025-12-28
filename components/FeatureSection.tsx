@@ -9,7 +9,7 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: '🌐',
-    title: '59 Countries/Regions Covered',
+    title: '60 Countries/Regions Covered',
     description:
       'Comprehensive coverage across Asia-Pacific, Europe, Americas, Middle East, and Africa with accurate regional data.',
   },
@@ -17,7 +17,7 @@ const features: Feature[] = [
     icon: '📅',
     title: 'Historical & Future Data',
     description:
-      'Access holiday data for 2023 and forward, with plans to expand further.',
+      'Access holiday data from 2020 through 2025, with accurate dates for all years.',
   },
   {
     icon: '🎯',

@@ -8,7 +8,7 @@ export const QueryParams = () => {
     {
       name: 'year',
       type: 'string',
-      description: 'Year (e.g., "2024", "2025")',
+      description: 'Year (e.g., "2020", "2023", "2025")',
     },
     {
       name: 'code',

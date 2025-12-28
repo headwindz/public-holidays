@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "Nieuwjaar",
+    "name": "New Year's Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-01-01T00:00:00.000Z",
+    "endDate": "2021-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Paasmaandag",
+    "name": "Easter Monday",
+    "code": "BE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-04-05T00:00:00.000Z",
+    "endDate": "2021-04-05T23:59:59.999Z"
+  },
+  {
+    "localName": "Dag van de Arbeid",
+    "name": "Labour Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-01T00:00:00.000Z",
+    "endDate": "2021-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Hemelvaart",
+    "name": "Ascension Day",
+    "code": "BE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-13T00:00:00.000Z",
+    "endDate": "2021-05-13T23:59:59.999Z"
+  },
+  {
+    "localName": "Pinkstermaandag",
+    "name": "Whit Monday",
+    "code": "BE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-24T00:00:00.000Z",
+    "endDate": "2021-05-24T23:59:59.999Z"
+  },
+  {
+    "localName": "Nationale Feestdag",
+    "name": "Belgian National Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-07-21T00:00:00.000Z",
+    "endDate": "2021-07-21T23:59:59.999Z"
+  },
+  {
+    "localName": "Onze Lieve Vrouw Hemelvaart",
+    "name": "Assumption of Mary",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-08-15T00:00:00.000Z",
+    "endDate": "2021-08-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Allerheiligen",
+    "name": "All Saints' Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-11-01T00:00:00.000Z",
+    "endDate": "2021-11-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Wapenstilstand",
+    "name": "Armistice Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-11-11T00:00:00.000Z",
+    "endDate": "2021-11-11T23:59:59.999Z"
+  },
+  {
+    "localName": "Kerstmis",
+    "name": "Christmas Day",
+    "code": "BE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-12-25T00:00:00.000Z",
+    "endDate": "2021-12-25T23:59:59.999Z"
+  }
+]

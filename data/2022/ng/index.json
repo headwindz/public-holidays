@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "New Year's Day",
+    "name": "New Year's Day",
+    "code": "NG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "endDate": "2022-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Good Friday",
+    "name": "Good Friday",
+    "code": "NG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-15T00:00:00.000Z",
+    "endDate": "2022-04-15T23:59:59.999Z"
+  },
+  {
+    "localName": "Easter Monday",
+    "name": "Easter Monday",
+    "code": "NG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-18T00:00:00.000Z",
+    "endDate": "2022-04-18T23:59:59.999Z"
+  },
+  {
+    "localName": "Workers' Day",
+    "name": "Workers' Day",
+    "code": "NG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-01T00:00:00.000Z",
+    "endDate": "2022-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Eid al-Fitr",
+    "name": "Eid al-Fitr",
+    "code": "NG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-02T00:00:00.000Z",
+    "endDate": "2022-05-03T23:59:59.999Z"
+  },
+  {
+    "localName": "Democracy Day",
+    "name": "Democracy Day",
+    "code": "NG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-06-12T00:00:00.000Z",
+    "endDate": "2022-06-12T23:59:59.999Z"
+  },
+  {
+    "localName": "Eid al-Adha",
+    "name": "Eid al-Adha",
+    "code": "NG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-07-09T00:00:00.000Z",
+    "endDate": "2022-07-10T23:59:59.999Z"
+  },
+  {
+    "localName": "Independence Day",
+    "name": "Independence Day",
+    "code": "NG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-10-01T00:00:00.000Z",
+    "endDate": "2022-10-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Christmas Day",
+    "name": "Christmas Day",
+    "code": "NG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-25T00:00:00.000Z",
+    "endDate": "2022-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "Boxing Day",
+    "name": "Boxing Day",
+    "code": "NG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-26T00:00:00.000Z",
+    "endDate": "2022-12-26T23:59:59.999Z"
+  }
+]

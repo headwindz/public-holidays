@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "פורים",
+    "name": "Purim",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-03-17T00:00:00.000Z",
+    "endDate": "2022-03-17T23:59:59.999Z"
+  },
+  {
+    "localName": "פסח",
+    "name": "Passover",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-15T00:00:00.000Z",
+    "endDate": "2022-04-22T23:59:59.999Z"
+  },
+  {
+    "localName": "יום הזיכרון",
+    "name": "Memorial Day",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-04T00:00:00.000Z",
+    "endDate": "2022-05-04T23:59:59.999Z"
+  },
+  {
+    "localName": "יום העצמאות",
+    "name": "Independence Day",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-05T00:00:00.000Z",
+    "endDate": "2022-05-05T23:59:59.999Z"
+  },
+  {
+    "localName": "שבועות",
+    "name": "Shavuot",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-06-05T00:00:00.000Z",
+    "endDate": "2022-06-05T23:59:59.999Z"
+  },
+  {
+    "localName": "תשעה באב",
+    "name": "Tisha B'Av",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-08-07T00:00:00.000Z",
+    "endDate": "2022-08-07T23:59:59.999Z"
+  },
+  {
+    "localName": "ראש השנה",
+    "name": "Rosh Hashanah",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-09-26T00:00:00.000Z",
+    "endDate": "2022-09-27T23:59:59.999Z"
+  },
+  {
+    "localName": "יום כיפור",
+    "name": "Yom Kippur",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-10-05T00:00:00.000Z",
+    "endDate": "2022-10-05T23:59:59.999Z"
+  },
+  {
+    "localName": "סוכות",
+    "name": "Sukkot",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-10-10T00:00:00.000Z",
+    "endDate": "2022-10-16T23:59:59.999Z"
+  },
+  {
+    "localName": "שמחת תורה",
+    "name": "Simchat Torah",
+    "code": "IL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-10-18T00:00:00.000Z",
+    "endDate": "2022-10-18T23:59:59.999Z"
+  }
+]

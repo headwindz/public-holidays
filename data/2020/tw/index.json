@@ -1,0 +1,98 @@
+[
+  {
+    "localName": "中華民國開國紀念日",
+    "name": "Republic Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-01-01T00:00:00.000Z",
+    "endDate": "2020-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "春節",
+    "name": "Lunar New Year",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-01-24T00:00:00.000Z",
+    "endDate": "2020-01-29T23:59:59.999Z"
+  },
+  {
+    "localName": "和平紀念日",
+    "name": "Peace Memorial Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-02-28T00:00:00.000Z",
+    "endDate": "2020-02-28T23:59:59.999Z"
+  },
+  {
+    "localName": "兒童節",
+    "name": "Children's Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-04-04T00:00:00.000Z",
+    "endDate": "2020-04-04T23:59:59.999Z"
+  },
+  {
+    "localName": "清明節",
+    "name": "Tomb Sweeping Day",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-04-02T00:00:00.000Z",
+    "endDate": "2020-04-03T23:59:59.999Z"
+  },
+  {
+    "localName": "端午節",
+    "name": "Dragon Boat Festival",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-06-25T00:00:00.000Z",
+    "endDate": "2020-06-26T23:59:59.999Z"
+  },
+  {
+    "localName": "中秋節",
+    "name": "Mid-Autumn Festival",
+    "code": "TW",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-10-01T00:00:00.000Z",
+    "endDate": "2020-10-02T23:59:59.999Z"
+  },
+  {
+    "localName": "國慶日",
+    "name": "National Day",
+    "code": "TW",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-10-10T00:00:00.000Z",
+    "endDate": "2020-10-10T23:59:59.999Z"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "New Year's Day",
+    "name": "New Year's Day",
+    "code": "IE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "endDate": "2022-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "St. Brigid's Day",
+    "name": "St. Brigid's Day",
+    "code": "IE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-02-01T00:00:00.000Z",
+    "endDate": "2022-02-01T23:59:59.999Z"
+  },
+  {
+    "localName": "St. Patrick's Day",
+    "name": "St. Patrick's Day",
+    "code": "IE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-03-17T00:00:00.000Z",
+    "endDate": "2022-03-17T23:59:59.999Z"
+  },
+  {
+    "localName": "Easter Monday",
+    "name": "Easter Monday",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-04-18T00:00:00.000Z",
+    "endDate": "2022-04-18T23:59:59.999Z"
+  },
+  {
+    "localName": "May Day",
+    "name": "May Day",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-02T00:00:00.000Z",
+    "endDate": "2022-05-02T23:59:59.999Z"
+  },
+  {
+    "localName": "June Bank Holiday",
+    "name": "June Bank Holiday",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-06-06T00:00:00.000Z",
+    "endDate": "2022-06-06T23:59:59.999Z"
+  },
+  {
+    "localName": "August Bank Holiday",
+    "name": "August Bank Holiday",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-08-01T00:00:00.000Z",
+    "endDate": "2022-08-01T23:59:59.999Z"
+  },
+  {
+    "localName": "October Bank Holiday",
+    "name": "October Bank Holiday",
+    "code": "IE",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-10-31T00:00:00.000Z",
+    "endDate": "2022-10-31T23:59:59.999Z"
+  },
+  {
+    "localName": "Christmas Day",
+    "name": "Christmas Day",
+    "code": "IE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-25T00:00:00.000Z",
+    "endDate": "2022-12-25T23:59:59.999Z"
+  },
+  {
+    "localName": "St. Stephen's Day",
+    "name": "St. Stephen's Day",
+    "code": "IE",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-26T00:00:00.000Z",
+    "endDate": "2022-12-26T23:59:59.999Z"
+  }
+]

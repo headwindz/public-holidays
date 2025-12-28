@@ -1,0 +1,98 @@
+[
+  {
+    "localName": "Новый год",
+    "name": "New Year's Day",
+    "code": "RU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-01-01T00:00:00.000Z",
+    "endDate": "2021-01-08T23:59:59.999Z"
+  },
+  {
+    "localName": "Рождество Христово",
+    "name": "Orthodox Christmas",
+    "code": "RU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-01-07T00:00:00.000Z",
+    "endDate": "2021-01-07T23:59:59.999Z"
+  },
+  {
+    "localName": "День защитника Отечества",
+    "name": "Defender of the Fatherland Day",
+    "code": "RU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-02-23T00:00:00.000Z",
+    "endDate": "2021-02-23T23:59:59.999Z"
+  },
+  {
+    "localName": "Международный женский день",
+    "name": "International Women's Day",
+    "code": "RU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-03-08T00:00:00.000Z",
+    "endDate": "2021-03-08T23:59:59.999Z"
+  },
+  {
+    "localName": "Праздник Весны и Труда",
+    "name": "Spring and Labour Day",
+    "code": "RU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-01T00:00:00.000Z",
+    "endDate": "2021-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "День Победы",
+    "name": "Victory Day",
+    "code": "RU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-09T00:00:00.000Z",
+    "endDate": "2021-05-09T23:59:59.999Z"
+  },
+  {
+    "localName": "День России",
+    "name": "Russia Day",
+    "code": "RU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-06-12T00:00:00.000Z",
+    "endDate": "2021-06-12T23:59:59.999Z"
+  },
+  {
+    "localName": "День народного единства",
+    "name": "Unity Day",
+    "code": "RU",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-11-04T00:00:00.000Z",
+    "endDate": "2021-11-04T23:59:59.999Z"
+  }
+]

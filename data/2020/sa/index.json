@@ -1,0 +1,62 @@
+[
+  {
+    "localName": "عيد الفطر",
+    "name": "Eid al-Fitr",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-05-24T00:00:00.000Z",
+    "endDate": "2020-05-28T23:59:59.999Z"
+  },
+  {
+    "localName": "وقفة عرفة",
+    "name": "Arafat Day",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-07-30T00:00:00.000Z",
+    "endDate": "2020-07-30T23:59:59.999Z"
+  },
+  {
+    "localName": "عيد الأضحى",
+    "name": "Eid al-Adha",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-07-31T00:00:00.000Z",
+    "endDate": "2020-08-04T23:59:59.999Z"
+  },
+  {
+    "localName": "رأس السنة الهجرية",
+    "name": "Islamic New Year",
+    "code": "SA",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-08-20T00:00:00.000Z",
+    "endDate": "2020-08-20T23:59:59.999Z"
+  },
+  {
+    "localName": "اليوم الوطني",
+    "name": "National Day",
+    "code": "SA",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2020-09-23T00:00:00.000Z",
+    "endDate": "2020-09-23T23:59:59.999Z"
+  }
+]

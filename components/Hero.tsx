@@ -10,7 +10,7 @@ export const Hero = () => {
       </h1>
       <p className="mx-auto mt-6 text-xl max-w-3xl text-gray-600 dark:text-gray-300">
         Free and open-source API providing comprehensive public holiday
-        information for 59 countries/regions worldwide. Perfect for scheduling,
+        information for 60 countries/regions worldwide. Perfect for scheduling,
         calendar apps, and HR systems.
       </p>
       <div className="flex flex-col mt-10 gap-4 justify-center sm:flex-row">

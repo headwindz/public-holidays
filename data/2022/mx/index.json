@@ -1,0 +1,86 @@
+[
+  {
+    "localName": "Año Nuevo",
+    "name": "New Year's Day",
+    "code": "MX",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-01-01T00:00:00.000Z",
+    "endDate": "2022-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Día de la Constitución",
+    "name": "Constitution Day",
+    "code": "MX",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-02-07T00:00:00.000Z",
+    "endDate": "2022-02-07T23:59:59.999Z"
+  },
+  {
+    "localName": "Natalicio de Benito Juárez",
+    "name": "Benito Juárez's Birthday",
+    "code": "MX",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-03-21T00:00:00.000Z",
+    "endDate": "2022-03-21T23:59:59.999Z"
+  },
+  {
+    "localName": "Día del Trabajo",
+    "name": "Labour Day",
+    "code": "MX",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-05-01T00:00:00.000Z",
+    "endDate": "2022-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Día de la Independencia",
+    "name": "Independence Day",
+    "code": "MX",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-09-16T00:00:00.000Z",
+    "endDate": "2022-09-16T23:59:59.999Z"
+  },
+  {
+    "localName": "Día de la Revolución",
+    "name": "Revolution Day",
+    "code": "MX",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-11-21T00:00:00.000Z",
+    "endDate": "2022-11-21T23:59:59.999Z"
+  },
+  {
+    "localName": "Navidad",
+    "name": "Christmas Day",
+    "code": "MX",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2022-12-25T00:00:00.000Z",
+    "endDate": "2022-12-25T23:59:59.999Z"
+  }
+]

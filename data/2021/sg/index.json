@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "New Year's Day",
+    "name": "New Year's Day",
+    "code": "SG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-01-01T00:00:00.000Z",
+    "endDate": "2021-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Chinese New Year",
+    "name": "Chinese New Year",
+    "code": "SG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-02-12T00:00:00.000Z",
+    "endDate": "2021-02-13T23:59:59.999Z"
+  },
+  {
+    "localName": "Good Friday",
+    "name": "Good Friday",
+    "code": "SG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-04-02T00:00:00.000Z",
+    "endDate": "2021-04-02T23:59:59.999Z"
+  },
+  {
+    "localName": "Hari Raya Puasa",
+    "name": "Hari Raya Puasa",
+    "code": "SG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-13T00:00:00.000Z",
+    "endDate": "2021-05-13T23:59:59.999Z"
+  },
+  {
+    "localName": "Labour Day",
+    "name": "Labour Day",
+    "code": "SG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-01T00:00:00.000Z",
+    "endDate": "2021-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Vesak Day",
+    "name": "Vesak Day",
+    "code": "SG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-26T00:00:00.000Z",
+    "endDate": "2021-05-26T23:59:59.999Z"
+  },
+  {
+    "localName": "Hari Raya Haji",
+    "name": "Hari Raya Haji",
+    "code": "SG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-07-20T00:00:00.000Z",
+    "endDate": "2021-07-20T23:59:59.999Z"
+  },
+  {
+    "localName": "National Day",
+    "name": "National Day",
+    "code": "SG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-08-09T00:00:00.000Z",
+    "endDate": "2021-08-09T23:59:59.999Z"
+  },
+  {
+    "localName": "Deepavali",
+    "name": "Deepavali",
+    "code": "SG",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-11-04T00:00:00.000Z",
+    "endDate": "2021-11-04T23:59:59.999Z"
+  },
+  {
+    "localName": "Christmas Day",
+    "name": "Christmas Day",
+    "code": "SG",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-12-25T00:00:00.000Z",
+    "endDate": "2021-12-25T23:59:59.999Z"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "localName": "Año Nuevo",
+    "name": "New Year's Day",
+    "code": "EC",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-01-01T00:00:00.000Z",
+    "endDate": "2021-01-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Carnaval",
+    "name": "Carnival",
+    "code": "EC",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-02-15T00:00:00.000Z",
+    "endDate": "2021-02-16T23:59:59.999Z"
+  },
+  {
+    "localName": "Viernes Santo",
+    "name": "Good Friday",
+    "code": "EC",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-04-02T00:00:00.000Z",
+    "endDate": "2021-04-02T23:59:59.999Z"
+  },
+  {
+    "localName": "Día del Trabajo",
+    "name": "Labour Day",
+    "code": "EC",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-01T00:00:00.000Z",
+    "endDate": "2021-05-01T23:59:59.999Z"
+  },
+  {
+    "localName": "Batalla de Pichincha",
+    "name": "Battle of Pichincha",
+    "code": "EC",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-05-24T00:00:00.000Z",
+    "endDate": "2021-05-24T23:59:59.999Z"
+  },
+  {
+    "localName": "Primer Grito de Independencia",
+    "name": "Independence Day",
+    "code": "EC",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-08-10T00:00:00.000Z",
+    "endDate": "2021-08-10T23:59:59.999Z"
+  },
+  {
+    "localName": "Independencia de Guayaquil",
+    "name": "Independence of Guayaquil",
+    "code": "EC",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-10-09T00:00:00.000Z",
+    "endDate": "2021-10-09T23:59:59.999Z"
+  },
+  {
+    "localName": "Día de los Difuntos",
+    "name": "All Souls' Day",
+    "code": "EC",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-11-02T00:00:00.000Z",
+    "endDate": "2021-11-02T23:59:59.999Z"
+  },
+  {
+    "localName": "Independencia de Cuenca",
+    "name": "Independence of Cuenca",
+    "code": "EC",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-11-03T00:00:00.000Z",
+    "endDate": "2021-11-03T23:59:59.999Z"
+  },
+  {
+    "localName": "Navidad",
+    "name": "Christmas Day",
+    "code": "EC",
+    "fixed": true,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": ["Public"],
+    "startDate": "2021-12-25T00:00:00.000Z",
+    "endDate": "2021-12-25T23:59:59.999Z"
+  }
+]

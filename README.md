@@ -1,20 +1,20 @@
 # Public Holidays API
 
-A comprehensive public holidays API providing holiday data for 59 countries and regions across multiple years (2023-2025). Built with Next.js and TypeScript.
+A comprehensive public holidays API providing holiday data for 60 countries and regions across multiple years (2020-2025). Built with Next.js and TypeScript.
 
 🌐 **Doc**: [https://public-holidays.toolhub.run/](https://public-holidays.toolhub.run/)
 
 ## Features
 
-- 🌍 **59 Countries & Regions** - Comprehensive coverage of public holidays worldwide
-- 📅 **Multiple Years** - Data available for 2023, 2024, and 2025
+- 🌍 **60 Countries & Regions** - Comprehensive coverage of public holidays worldwide
+- 📅 **Multiple Years** - Data available for 2020, 2021, 2022, 2023, 2024, and 2025
 - 🚀 **Fast API** - Built on Next.js API routes for optimal performance
 - 🎨 **Interactive Documentation** - Built-in API tester and documentation
 - 📱 **Responsive Design** - Works seamlessly on all devices
 
 ## Supported Countries
 
-The API covers 59 countries and regions including:
+The API covers 60 countries and regions including:
 
 - 🇨🇳 China (cn)
 - 🇺🇸 United States (us)
@@ -41,7 +41,7 @@ GET https://public-holidays.toolhub.run/api/public-holidays?year={year}&code={co
 
 ### Parameters
 
-- `year` (required) - The year for which to retrieve holidays (e.g., 2023, 2024, 2025)
+- `year` (required) - The year for which to retrieve holidays (e.g., 2020, 2021, 2022, 2023, 2024, 2025)
 - `code` (required) - The ISO 3166-1 alpha-2 country/region code (e.g., cn, us, uk, ca)
 
 ### Example Request
@@ -198,6 +198,9 @@ public-holidays/
 │   ├── layout.tsx                 # Root layout
 │   └── page.tsx                   # Landing page
 ├── data/
+│   ├── 2020/                      # 2020 holiday data
+│   ├── 2021/                      # 2021 holiday data
+│   ├── 2022/                      # 2022 holiday data
 │   ├── 2023/                      # 2023 holiday data
 │   ├── 2024/                      # 2024 holiday data
 │   └── 2025/                      # 2025 holiday data
@@ -205,7 +208,7 @@ public-holidays/
 │       │   └── index.json
 │       ├── us/
 │       │   └── index.json
-│       └── ...                    # 59 countries total
+│       └── ...                    # 60 countries total
 └── package.json
 ```
 

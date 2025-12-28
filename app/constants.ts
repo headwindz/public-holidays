@@ -42,6 +42,7 @@ export const SUPPORTED_COUNTRIES_REGIONS = [
   { code: 'PH', name: 'Philippines' },
   { code: 'PK', name: 'Pakistan' },
   { code: 'PL', name: 'Poland' },
+  { code: 'PT', name: 'Portugal' },
   { code: 'PY', name: 'Paraguay' },
   { code: 'RU', name: 'Russia' },
   { code: 'SA', name: 'Saudi Arabia' },
